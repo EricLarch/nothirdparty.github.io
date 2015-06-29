@@ -1,0 +1,98 @@
+@import "http://fonts.googleapis.com/css?family=Open+Sans:300";
+
+/* General */
+
+body {
+    font: 17px/26px "Open Sans",Georgia,"Times New Roman",Times,serif;
+}
+
+#content, header, footer {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 10px;
+}
+
+/* Content */
+
+blockquote {
+    border: 3px solid #e60000;
+    padding-left: 15px;
+}
+
+/* Home page */
+
+.home-image {
+    float: left;
+    height: auto;
+    margin: 0 20px 10px 0;
+    width: 250px;
+}
+
+@media only screen and (max-width: 400px) {
+	.home-image {
+	    margin: 0 0 15px 0;
+	    width: 100%;
+	}
+}
+
+/* Header */
+
+header {
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.header-name {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0 0;
+}
+
+.header-image {
+	border-radius: 50%;
+	width: 110px;
+	margin: 10px 0 0;
+	height: 110px;
+}
+
+/* Footer */
+
+footer {
+    border-top: 1px solid #ccc;
+}
+
+/* Menu */
+
+nav ul {
+    padding: 0;
+}
+
+header .menu li {
+    display: inline-block;
+    margin: 0;
+    padding: 5px 9px;
+}
+
+footer .menu li {
+    display: inline-block;
+    margin: 0;
+    padding: 3px 15px 5px 0;
+}
+
+/* Links */
+
+a, a:visited, a:focus, a:active {
+    color: #e60000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e60000;
+    text-decoration: underline;
+}
+
+.header-name a, .page-title a {
+	color: #000;
+}
