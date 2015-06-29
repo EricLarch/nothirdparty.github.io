@@ -1,18 +1,59 @@
 ---
-layout: default
+layout: index
 title: Home
-description: Jordan Tuwiner.
+permalink: /
 ---
 
-<div class="entry-content">
-	<img class="home-image" src="/images/home.jpg">
-	<p>I’m Jordan Tuwiner.</p>
-	<p>I grew up in the United States, but currently live in Israel where I serve in the army as a lone soldier. I studied one year at Towson University before making aliyah to Israel.</p>
-	
-	<p>I founded <a href="http://orioles-nation.com/">Orioles-Nation.com</a> in high school and built it into one of the top Orioles websites. My passion for baseball slowly faded and I sold the site in October 2013.</p>
+<div id="service">
+    <div class="container">
+        <div class="row centered">
+            <div class="col-md-4">
+                <i class="fa fa-heart-o"></i>
+                <h4>Handsomely Crafted</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-flask"></i>
+                <h4>Retina Ready</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+            </div>
+            <div class="col-md-4">
+                <i class="fa fa-trophy"></i>
+                <h4>Quality Theme</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
+            </div>		 				
+        </div>
+    </div><! --/container -->
+</div><! --/service -->
 
-	<p>I’m a <a href="http://jordantuwiner.com/2015/01/03/for-bitcoin/">Bitcoin proponent</a>; it’s going to do to money what the internet did to communication and information. My favorite Bitcoin website is <a href="http://nakamotoinstitute.org/">The Nakamoto Institute</a>. I created <a href="http://bitcoinobituaries.com">Bitcoin Obituaries</a> and founded <a href="http://nothirdparty.com/">No Third Party</a>.</p>
+{% include portfolio.html title="LATEST WORKS" limit=10 %}
 
-	<p>I’m currently dreaming and planning my travels for after the army, while still trying to make the most of the rest of my service. Only 14 more months!</p>
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-4 col-lg-offset-1">
+            <h4>More About Our Agency.</h4>
+            <p>{{ site.about }}</p>
+            <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
+        </div>
 
-</div>
+        <div class="col-lg-3">
+            <h4>Frequently Asked</h4>
+            <div class="hline"></div>
+            {% for post in site.categories['question'] %} 
+                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+            {% endfor %}
+        </div>
+
+        <div class="col-lg-3">
+            <h4>Latest Posts</h4>
+            <div class="hline"></div>
+            {% for post in site.categories['blog'] limit:5 %} 
+                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+            {% endfor %} 
+        </div>
+
+    </div><! --/row -->
+</div><! --/container -->

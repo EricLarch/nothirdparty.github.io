@@ -1,29 +1,32 @@
-<!DOCTYPE html>
-<html itemscope="itemscope" itemtype="http://schema.org/WebPage" lang="en-US" prefix="og: http://ogp.me/ns#">
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<title>{{ page.title }} | Jordan Tuwiner</title>
-	<meta name="author" content="Jordan Tuwiner">
-	<meta name="description" content="{{ page.description }}">
-	{% if page.title %}
-    <meta content="article" property="og:type">
-	{% else %}
-    <meta content="website" property="og:type">
-	{% endif %}
-	{% if page.url %}
-    <meta content="{{ site.url }}{{ page.url }}" property="og:url">
-	{% endif %}
-	<link href="/css/style.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="{{ "/assets/ico/favicon.ico" | prepend: site.baseurl }}">
+
+    <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ "/assets/css/bootstrap.css" | prepend: site.baseurl }}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{{ "/assets/css/style.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ "/assets/css/font-awesome.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <!--<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">-->
+
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="{{ "/assets/js/modernizr.js" | prepend: site.baseurl }}"></script>
 </head>
-<body>
-	<header itemtype="http://schema.org/WPHeader" role="banner" class="site-header" 	id="masthead">
-		<div class="header-name"><a href="/">Jordan Tuwiner</a></div>
-		<nav class="site-navigation">
-			<ul class="menu">
-				<li><a href="/">Home</a></li>
-				<li><a href="/projects/">Projects</a></li>
-				<li><a href="/writing/">Writing</a></li>
-			</ul>
-		</nav>
-	</header>
