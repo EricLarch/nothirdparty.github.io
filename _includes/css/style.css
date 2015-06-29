@@ -90,9 +90,16 @@ a:focus {
 	background:{{ site.colors.secondary }};
 }
 
-.centered {
+.centered { 
 	text-align: center
 }
+
+/*	################################################################
+	My changes!
+################################################################# */
+
+.home-showcase
+
 
 /*	################################################################
 	BOOTSTRAP MODIFICATIONS & TWEAKS
