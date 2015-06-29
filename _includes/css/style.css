@@ -113,9 +113,10 @@ a:focus {
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: white;
-	font-weight: 700;
-	font-size: 12px;
+    color: white;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 300;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
