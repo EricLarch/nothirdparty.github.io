@@ -160,6 +160,10 @@ a:focus {
     padding: 10px 30px;
 }
 
+.subtext-headers {
+	font-size: 14px;
+}
+
 .choose-a-wallet:hover {
     border: 1px solid #fff;
     background: #fff;
