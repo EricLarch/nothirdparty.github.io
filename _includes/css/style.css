@@ -144,6 +144,14 @@ a:focus {
 	font-size: 15px;
 }
 
+.choose-wallet {
+	background: #00b3fe none repeat scroll 0 0;
+}
+
+.choose-a-wallet {
+	font-family: Source Sans Pro;
+}
+
 
 /*	################################################################
 	BOOTSTRAP MODIFICATIONS & TWEAKS
