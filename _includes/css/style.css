@@ -146,10 +146,16 @@ a:focus {
 
 .choose-wallet {
 	background: #00b3fe none repeat scroll 0 0;
+	color: #ffffff;
 }
 
 .choose-a-wallet {
 	font-family: Source Sans Pro;
+	color: #ffffff;
+}
+
+hr.normal {
+	width: 55px;
 }
 
 
