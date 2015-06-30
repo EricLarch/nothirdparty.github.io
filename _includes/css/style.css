@@ -8,10 +8,10 @@
 	URL: http://alvarez.is
 	
 ################################################################# */ 
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,900);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
 
@@ -27,24 +27,24 @@ body {
 	background: #ffffff; 
 	margin: 0; 
 	height: 100%; 
-	color: {{ site.colors.secondary }};
-	font-family: 'Lato', sans-serif;
+	color: rgba(30, 30, 30, 0.8);
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	}
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 }
 
 p { 
 	padding: 0; 
 	margin-bottom: 12px; 
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-	font-size: 14px; 
+	font-size: 15px; 
 	line-height: 24px;
-	color: {{ site.colors.secondary }}; 
+	color: rgba(30, 30, 30, 0.8); 
 	margin-top: 10px; 
 }
 
@@ -182,7 +182,7 @@ hr.normal {
 }
 
 .navbar-brand {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 900;
 }
 
@@ -192,7 +192,7 @@ hr.normal {
 
 .navbar-default .navbar-nav > li > a {
     color: white;
-    font-family: Open Sans;
+    font-family: Lato;
     font-size: 15px;
     font-weight: 300;
 }
@@ -558,8 +558,7 @@ csmall {
 	}
 	
 .popular-posts li em {
-	font-family: 'Lato', sans-serif;
-	font-size: 12px;
+	font-size: 13px;
 	color: #b3b3b3
 	}
 
