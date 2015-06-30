@@ -175,7 +175,7 @@ hr.normal {
     width: 55px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .col-md-4 {
     margin: 50px 0;
 }
