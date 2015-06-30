@@ -103,6 +103,26 @@ a:focus {
 	margin: 40px 0;
 }
 
+.home-showcase i {
+    background: #00b3fe none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.home-showcase h4 {
+    font-family: Source Sans Pro;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
+.home-showcase p {
+    font-size: 15px;
+}
+
 .satoshi-cite {
 	margin-top: -8px;
 }
