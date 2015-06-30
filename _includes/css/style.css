@@ -136,6 +136,10 @@ a:focus {
 	margin-top: -8px;
 }
 
+.satoshi-cite em {
+	font-size: 15px;
+}
+
 
 /*	################################################################
 	BOOTSTRAP MODIFICATIONS & TWEAKS
