@@ -150,8 +150,11 @@ a:focus {
 }
 
 .choose-a-wallet {
-	font-family: Source Sans Pro;
-	color: #ffffff;
+    border: 1px solid #fff;
+    font-family: Source Sans Pro;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 3px;
 }
 
 hr.normal {
