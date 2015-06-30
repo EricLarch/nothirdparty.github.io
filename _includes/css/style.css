@@ -11,6 +11,7 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,900);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
 
@@ -103,7 +104,7 @@ a:focus {
 }
 
 .satoshi-cite {
-	margin-top: -12px;
+	margin-top: -8px;
 }
 
 
