@@ -279,12 +279,6 @@ a:focus {
 	margin-bottom: 0px;
 }
 
-#service i {
-	color: {{ site.colors.primary }};
-	font-size: 60px;
-	padding: 15px;
-}
-
 /* Portfolio Wrap */
 #portfoliowrap {
 	padding-top: 60px;
