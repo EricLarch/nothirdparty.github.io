@@ -107,7 +107,7 @@ a:focus {
     background: #00b3fe url("http://nothirdparty.github.io/assets/img/icons/wallet.png") no-repeat scroll 50% center / 58px auto;
     border-radius: 50%;
     height: 90px;
-    margin: 0 auto -100px;
+    margin: 0 auto 20px;
     padding: 20px;
     width: 90px;
 }
