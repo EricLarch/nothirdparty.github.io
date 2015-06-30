@@ -161,7 +161,7 @@ a:focus {
 }
 
 .subtext-headers {
-	font-size: 14px;
+	font-size: 17px;
 }
 
 .choose-a-wallet:hover {
@@ -173,6 +173,12 @@ a:focus {
 hr.normal {
     margin: 23px auto;
     width: 55px;
+}
+
+@media (min-width: 768px) {
+  .col-md-4 {
+    margin: 50px 0;
+}
 }
 
 
