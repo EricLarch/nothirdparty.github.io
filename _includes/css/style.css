@@ -132,6 +132,10 @@ a:focus {
     font-size: 15px;
 }
 
+.home-section-links {
+	font-size: 17px;
+}
+
 .satoshi-cite {
 	margin-top: -8px;
 }
