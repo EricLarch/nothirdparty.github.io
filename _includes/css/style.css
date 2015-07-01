@@ -169,6 +169,11 @@ a:focus {
     font-weight: 500;
 }
 
+.choose-wallet h4 {
+    font-size: 20px;
+    margin: 25px 0 0;
+}
+
 .choose-a-wallet:hover {
     border: 1px solid #fff;
     background: #fff;
