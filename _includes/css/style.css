@@ -161,7 +161,12 @@ a:focus {
 }
 
 .subtext-headers {
-	font-size: 17px;
+	font-size: 18px;
+}
+
+.choose-wallet h3 {
+    font-size: 35px;
+    font-weight: 500;
 }
 
 .choose-a-wallet:hover {
