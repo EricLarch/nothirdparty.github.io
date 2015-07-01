@@ -185,6 +185,12 @@ hr.normal {
     width: 55px;
 }
 
+@media (max-width: 767px) { 
+	.choose-wallet h3 {
+    font-size: 28px;
+}
+}
+
 @media (max-width: 992px) {
   .col-md-4 {
     margin: 40px 0 0;
