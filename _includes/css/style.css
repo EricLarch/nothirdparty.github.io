@@ -190,6 +190,11 @@ hr.normal {
 	border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
 	border-top: 20px solid #00b3fe;
+	margin: 0 auto;
+}
+
+.satosh-quote-wrap {
+	background: #00b3fe;
 }
 
 @media (max-width: 767px) { 
