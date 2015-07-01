@@ -203,8 +203,11 @@ hr.normal {
     padding: 30px;
 }
 
+.satosh-quote-wrap .subtext-headers {
+    font-size: 21px;
+}
+
 .satoshi-quote-cite {
-	font-weight: bold;
 	font-size: 18px;
 	font-family: 'Montserrat', sans-serif;
 	margin: 15px 0 0;
