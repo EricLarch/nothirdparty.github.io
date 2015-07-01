@@ -184,6 +184,14 @@ hr.normal {
     width: 55px;
 }
 
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #00b3fe;
+}
+
 @media (max-width: 767px) { 
 	.choose-wallet h3 {
     font-size: 28px;
