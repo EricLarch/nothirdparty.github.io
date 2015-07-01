@@ -206,6 +206,8 @@ hr.normal {
 .satoshi-quote-cite {
 	font-weight: bold;
 	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	margin: 15px 0 0;
 }
 
 @media (max-width: 767px) { 
