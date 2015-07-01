@@ -160,7 +160,9 @@ a:focus {
 }
 
 .subtext-headers {
-	font-size: 18px;
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 900px;
 }
 
 .choose-wallet h3 {
@@ -185,16 +187,25 @@ hr.normal {
 }
 
 .arrow-down {
-	width: 0; 
-	height: 0; 
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-	border-top: 20px solid #00b3fe;
-	margin: 0 auto;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 25px solid #00b3fe;
+    display: block;
+    height: 0;
+    margin: 50px auto -50px;
+    width: 0;
 }
 
 .satosh-quote-wrap {
-	background: #00b3fe;
+    background: #00b3fe none repeat scroll 0 0;
+    color: #fff;
+    margin: 0 0 50px;
+    padding: 30px;
+}
+
+.satoshi-quote-cite {
+	font-weight: bold;
+	font-size: 18px;
 }
 
 @media (max-width: 767px) { 
