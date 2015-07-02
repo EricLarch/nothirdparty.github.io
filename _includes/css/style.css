@@ -211,7 +211,7 @@ hr.normal {
 
 	.navbar-header .navbar-brand {
     margin: 0 0 0 15px;
-    background-image: url("http://nothirdparty.github.io/assets/img/icons/logo.png");
+    background-image: url("http://nothirdparty.github.io/assets/img/icons/logo.png") !important;
 }
 
 }
@@ -357,7 +357,7 @@ hr.normal {
 	background-color: {{ site.colors.primary }};
 	min-height: 0px;
 	padding-top: 100px;
-	padding-bottom: 30px;
+	padding-bottom: 40px;
 	text-align: center;
 }
 
