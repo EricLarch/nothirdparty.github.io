@@ -188,11 +188,18 @@ hr.normal {
 .arrow-down {
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
-    border-top: 25px solid #00b3fe;
     display: block;
     height: 0;
-    margin: 50px auto -50px;
     width: 0;
+}
+
+.arrow-down-dark-blue {
+    border-top: 25px solid #00364c;
+    margin: 50px auto -50px;
+}
+
+.arrow-down-dark-blue {
+    border-top: 25px solid #00b3fe;
 }
 
 .satosh-quote-wrap {
