@@ -232,7 +232,7 @@ hr.normal {
 }
 
 .navbar-header .navbar-brand {
-    background-image: url("nothirdparty.github.io/assets/img/icons/ntplogo.png");
+    background-image: url("http://nothirdparty.github.io/assets/img/icons/ntplogo.png");
     background-repeat: no-repeat;
     background-size: 265px auto;
     color: white;
