@@ -210,8 +210,10 @@ hr.normal {
 }
 
 	.navbar-header .navbar-brand {
-    margin: 0 0 0 15px;
     background-image: url("http://nothirdparty.github.io/assets/img/icons/logo.png") !important;
+    background-size: 45px auto !important;
+    margin: 0 0 0 15px;
+    width: 60px !important;
 }
 
 }
