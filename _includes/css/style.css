@@ -211,6 +211,7 @@ hr.normal {
 
 	.navbar-header .navbar-brand {
     margin: 0 0 0 15px;
+    background-image: url("http://nothirdparty.github.io/assets/img/icons/logo.png");
 }
 
 }
