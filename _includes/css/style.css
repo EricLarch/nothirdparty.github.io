@@ -202,6 +202,8 @@ hr.normal {
     margin: 15px 0 0;
 }
 
+
+
 @media (max-width: 767px) { 
 	.choose-wallet h3 {
     font-size: 28px;
@@ -230,7 +232,13 @@ hr.normal {
 }
 
 .navbar-header .navbar-brand {
-	color: white;
+    background-image: url("nothirdparty.github.io/assets/img/icons/ntplogo.png");
+    background-repeat: no-repeat;
+    background-size: 265px auto;
+    color: white;
+    display: inline-block;
+    height: 55px;
+    width: 270px;
 }
 
 .navbar-default .navbar-nav > li > a {
