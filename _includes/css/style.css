@@ -167,7 +167,6 @@ a:focus {
 
 .choose-wallet h3 {
     font-size: 35px;
-    font-weight: 500;
 }
 
 .choose-wallet h4 {
@@ -197,7 +196,7 @@ hr.normal {
 }
 
 .satosh-quote-wrap {
-    background: #00b3fe none repeat scroll 0 0;
+    background: #00364c none repeat scroll 0 0;
     color: #fff;
     margin: 0 0 50px;
     padding: 30px;
