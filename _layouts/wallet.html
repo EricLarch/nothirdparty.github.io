@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<div class="wallet-header-back">
+<div class="container mtb wallet-header">
+	<div class="row">
+	<div class="col-lg-1 col-xs-0"></div>
+	  <div class="col-xs-12 col-md-6"><h1 class="ctitle"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h1>
+	 <div class="wallet-info"> 
+	 	<i class="fa fa-link fa-lg"></i> <div class="wallet-info-link">Mycelium.com</div>
+	 	<i class="fa fa-mobile fa-lg"></i> <div class="wallet-info-link">Mobile Wallet</div>
+	 	<i class="fa fa-github fa-lg"></i> <div class="wallet-info-link">Open Source</div>
+	 </div>
+	 </div>
+	  <div class="col-xs-0 col-md-4">
+		  <a class="contribute-page"><i class="fa fa-pencil-square-o"></i> Contribute to this page</a>
+	  </div>
+	  <div class="col-lg-1 col-xs-0"></div>
+	</div>
+</div>
+</div>
+<div class="container">
+    <div class="row">
+        <! -- SINGLE POST -->
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
+            <! -- Blog Post  -->
+            <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }}"></p>
+            
+            <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</csmall></p>
+              
+            {{ content }}
+
+         
+        </div><! --/col-lg-12 -->
+        <div class="col-lg-1"></div>
+    </div><! --/row -->
+</div><! --/container -->
