@@ -405,6 +405,13 @@ hr.normal {
     text-align: center;
     width: 150px;
 }
+.wallet-index-wrap h3 {
+	color: #000;	
+}
+
+.wallet-index-wrap h3:hover {
+	color: #00b3fe;	
+}
 
 .wallet-index-wrap h3 {
     font-family: "Open Sans",sans-serif;
@@ -572,6 +579,7 @@ blockquote cite {
 }
 
 .mtb {
+	margin-top: 80px;
 	margin-bottom: 80px;
 }
 
@@ -753,7 +761,7 @@ blockquote cite {
 #blue {
 	background: #00b3fe;
 	margin-top: 60px;
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
