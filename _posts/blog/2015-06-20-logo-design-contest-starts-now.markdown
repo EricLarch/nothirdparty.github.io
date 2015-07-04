@@ -9,7 +9,6 @@ categories:
 - meta
 permalink: /blog/why-no-third-party/
 ---
-
 Satoshi's Nakamoto, the creator of Bitcoin, had clear intentions. Here is the first sentence of his email introducing his new creation:
 <blockquote>I've been working on a new electronic cash system that's fully
 peer-to-peer, with no trusted third party.
