@@ -253,13 +253,12 @@ hr.normal {
 }
 
 }
+@media (max-width: 991px) { 
 
-
-@media (max-width: 992px) {
-  .col-md-4 {
-    margin: 40px 0 0;
-}
-}
+	.footer-logo-header-5 {
+		margin-bottom: 40px !important;
+	}
+	}
 
 /*	################################################################
 	Wallet Headers
@@ -312,17 +311,9 @@ hr.normal {
     display: block;
     margin: 0 20px 0 0;
 }
-}
-
-@media (max-width: 992px) { 
 	.contribute-page {
 		display: none !important;
 	}
-	
-	.fa-lg {
-  width: (18em / 14);
-  text-align: center;
-}
 }
 
 .footer-logo {
@@ -652,9 +643,9 @@ hr.normal {
 }
 
 #footerwrap i {
-	font-size: 30px;
+	font-size: 23px;
 	color: {{ site.colors.footer_content }};
-	padding-right: 25px;
+	padding-right: 15px;
 }
 
 #footerwrap i:hover {
