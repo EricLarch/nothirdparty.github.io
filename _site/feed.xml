@@ -5,9 +5,68 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>http://nothirdparty.com//</link>
     <atom:link href="http://nothirdparty.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 04 Jul 2015 21:41:15 +0300</pubDate>
-    <lastBuildDate>Sat, 04 Jul 2015 21:41:15 +0300</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2015 22:06:05 +0300</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2015 22:06:05 +0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Blog: Why No Third Party?</title>
+        <description>&lt;p&gt;Satoshi’s Nakamoto, the creator of Bitcoin, had clear intentions. Here is the first sentence of his email introducing his new creation:&lt;/p&gt;
+&lt;blockquote&gt;I&#39;ve been working on a new electronic cash system that&#39;s fully
+peer-to-peer, with no trusted third party.
+&lt;cite&gt;Satoshi Nakamoto, &lt;a href=&quot;http://satoshi.nakamotoinstitute.org/emails/cryptography/1/#selection-19.0-14.6&quot;&gt;Bitcoin P2P e-cash paper&lt;/a&gt;&lt;/cite&gt;&lt;/blockquote&gt;
+&lt;p&gt;Before Bitcoin, currency was government issued and electronic transactions required third party processing. Governments inflate money at will, stealing from entire populations. Many Argentinians have lost their life savings multiple times because of hyperinflation.&lt;/p&gt;
+
+&lt;p&gt;Services like bank wires, PayPal, and Western Union require trusted entities to move money and verify transactions. Trusted entities must follow strict regulations and can freeze funds at any time. Cypriots, who put their trust in banks, were unable to withdrawal their own money during the 2013 bailouts.&lt;/p&gt;
+
+&lt;p&gt;Bitcoin eliminates the need for trust in third parties. The supply of Bitcoin is known and visible to anyone who looks at &lt;a href=&quot;https://github.com/bitcoin/bitcoin&quot;&gt;the code&lt;/a&gt;. All bitcoin transactions are, like cash, made directly from person-to-person. Transactions are validated by Bitcoin miners. The network is for anyone to use and distributed–so no one entity has control and it cannot be shut down.&lt;/p&gt;
+
+&lt;p&gt;Use the network whenever. Leave whenever. Nobody can prevent you from creating an account. No one can force you to use Bitcoin. No one can freeze your funds. Bitcoin is voluntary.&lt;/p&gt;
+
+&lt;p&gt;What are the implications and benefits of finance with no third parties?&lt;/p&gt;
+&lt;h3&gt;Cryptographically Secure&lt;/h3&gt;
+&lt;blockquote&gt;A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending.
+&lt;cite&gt;Satoshi Nakamoto, &lt;a href=&quot;http://nakamotoinstitute.org/bitcoin/#selection-37.4-37.325&quot;&gt;Bitcoin: A Peer-to-Peer Electronic Cash System&lt;/a&gt;&lt;/cite&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://coincenter.org/2014/12/bitcoin-mining/&quot;&gt;Bitcoin miners&lt;/a&gt; secure the network with proof of work. A bank account balance is simply a number in a database. You trust the bank to honor your balance. Bitcoin eliminates the need for trusted institutions. You can trust the network.&lt;/p&gt;
+
+&lt;p&gt;Bitcoin is like cash. If I own one bitcoin, I can be 100% sure I have one bitcoin. Bitcoin is secured by proof of work and can’t be counterfeited.&lt;/p&gt;
+
+&lt;p&gt;Trust computers instead of people.&lt;/p&gt;
+&lt;h3&gt;Peer-to-Peer&lt;/h3&gt;
+&lt;blockquote&gt;I&#39;ve been working on a new electronic cash system that&#39;s fully
+peer-to-peer, with no trusted third party.
+&lt;cite&gt;Satoshi Nakamoto, &lt;a href=&quot;http://satoshi.nakamotoinstitute.org/emails/cryptography/1/#selection-19.0-14.6&quot;&gt;Bitcoin P2P e-cash paper&lt;/a&gt;&lt;/cite&gt;&lt;/blockquote&gt;
+&lt;p&gt;Peer-to-peer systems are voluntary. I can’t force you to use Bitcoin. You can’t force me. It’s a dumb network and accepts everyone. Bitcoin offers no barrier to entry.&lt;/p&gt;
+
+&lt;p&gt;Bitcoin transactions are faster, global, and cheap. Bitcoin can be sent from Canada to Japan in minutes, for a cost of about $0.02 no matter how large the transaction.&lt;/p&gt;
+&lt;h3&gt;Effortless Transactions&lt;/h3&gt;
+&lt;blockquote&gt;With e-currency based on cryptographic proof, without the need to trust a third party middleman, money can be secure and transactions effortless.
+&lt;cite&gt;Satoshi Nakamoto, &lt;a href=&quot;http://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/#selection-41.43-2.19&quot;&gt;Bitcoin open source implementation of P2P currency&lt;/a&gt;&lt;/cite&gt;&lt;/blockquote&gt;
+&lt;p&gt;Financial institutions slow down payments. Bitcoin makes sending money almost instant. There’s no bank, and no hours. &lt;a href=&quot;http://www.bitcoinuptime.com/&quot;&gt;Bitcoin works 24/7&lt;/a&gt;, anywhere with an internet connection. You can buy something or pay for services as fast as you can send an email. Payments, no matter how big or small, are now frictionless.&lt;/p&gt;
+&lt;h3&gt;No Need for Trust (Third Party)&lt;/h3&gt;
+&lt;blockquote&gt;Commerce on the Internet has come to rely almost exclusively on financial institutions serving as trusted third parties to process electronic payments. While the system works well enough for most transactions, it still suffers from the inherent weaknesses of the trust based model.
+&lt;cite&gt;Satoshi Nakamoto, &lt;a href=&quot;http://nakamotoinstitute.org/bitcoin/#selection-45.4-45.286&quot;&gt;Bitcoin: A Peer-to-Peer Electronic Cash System&lt;/a&gt;&lt;/cite&gt;&lt;/blockquote&gt;
+&lt;p&gt;Bitcoin gives us financial freedom. Governments can’t control the currency supply and inflate it recklessly. There will only be 21 million bitcoin. This is Bitcoin’s killer app.&lt;/p&gt;
+
+&lt;p&gt;With Bitcoin you own your money, and no one else can freeze your funds or payments.&lt;/p&gt;
+&lt;blockquote&gt;What is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party.
+&lt;cite&gt;Satoshi Nakamoto, &lt;a href=&quot;http://nakamotoinstitute.org/bitcoin/#selection-49.4-49.211&quot;&gt;Bitcoin: A Peer-to-Peer Electronic Cash System&lt;/a&gt;&lt;/cite&gt;&lt;/blockquote&gt;
+&lt;h3&gt;The Future&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://bitstein.org/blog/bitcoin-the-currency/&quot;&gt;Bitcoin&lt;em&gt; the currency&lt;/em&gt;&lt;/a&gt; will change the financial landscape. The internet made information and communication global, easy, and fast. Bitcoin will do the same for money.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/wallets/&quot;&gt;Bitcoin wallets&lt;/a&gt; give you access to the new world of money and finance. No Third Party provides you with the tools necessary to navigate the new peer-to-peer economy.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 20 Jun 2015 19:54:46 +0300</pubDate>
+        <link>http://nothirdparty.com//blog/why-no-third-party/</link>
+        <guid isPermaLink="true">http://nothirdparty.com//blog/why-no-third-party/</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>meta</category>
+        
+      </item>
     
       <item>
         <title>Wallets: Mycelium</title>
@@ -36,40 +95,6 @@
         <category>wallets</category>
         
         <category>mobile</category>
-        
-      </item>
-    
-      <item>
-        <title>Blog: Logo design contest starts now</title>
-        <description>&lt;p&gt;&lt;b&gt;Lorem Ipsum&lt;/b&gt; is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.&lt;/p&gt;
-
-&lt;p&gt;It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. &lt;!--more--&gt;
-It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;
-
-&lt;p&gt;Contrary to popular belief, &lt;b&gt;Lorem Ipsum is not simply random text&lt;/b&gt;. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Hampden-Sydney College&lt;/a&gt; in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.&amp;lt;&lt;/p&gt;
-
-&lt;p&gt;Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of “de Finibus Bonorum et Malorum” (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, “Lorem ipsum dolor sit amet..”, comes from a line in section 1.10.32.&lt;/p&gt;
-
-&lt;h4 id=&quot;why-do-we-use-it&quot;&gt;Why do we use it?&lt;/h4&gt;
-&lt;p&gt;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable.&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 25 Apr 2014 19:54:46 +0300</pubDate>
-        <link>http://nothirdparty.com//blog/tips&tricks/code-snippets/logo-design-contest-starts-now</link>
-        <guid isPermaLink="true">http://nothirdparty.com//blog/tips&tricks/code-snippets/logo-design-contest-starts-now</guid>
-        
-        
-        <category>blog</category>
-        
-        <category>tips&amp;tricks</category>
-        
-        <category>code-snippets</category>
         
       </item>
     
