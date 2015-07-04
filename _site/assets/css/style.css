@@ -306,6 +306,8 @@ hr.normal {
     width: 100px;
 }
 
+
+
 @media (max-width: 767px) {
 	.wallet-info-link {
     display: block;
@@ -314,6 +316,13 @@ hr.normal {
 	.contribute-page {
 		display: none !important;
 	}
+}
+
+@media (max-width: 500px) {
+	.wallet-content .vitals {
+    margin: 0 0 15px !important;
+    width: 100% !important;
+}
 }
 
 .wallet-content .security, .wallet-content .privacy {
@@ -427,6 +436,16 @@ hr.normal {
 
 .wallet-index-title span {
 	background-repeat: no-repeat;
+}
+
+.wallet-content .vitals {
+    float: left;
+    margin: 17px 30px 15px 0;
+    width: 240px;
+}
+
+.bg-success {
+    background-color: #dff0d8 !important;
 }
 
 .index-mobile-wallets span {
@@ -767,8 +786,14 @@ blockquote cite {
 	padding-bottom: 25px;
 }
 
+#blue .post h3 {
+	color: white;
+	text-align: left;
+}
+
 #blue h3 {
 	color: white;
+	text-align: center;
 }
 
 #blue .post-desc {
@@ -807,7 +832,8 @@ blockquote cite {
 
 csmall {
     color: white;
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .spacing {

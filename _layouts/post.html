@@ -3,10 +3,9 @@ layout: default
 ---
 
 <div id="blue">
-    <div class="container">
+    <div class="container post">
         <div class="row">
-        <div class="col-lg-2"></div>
-        <div class="col-lg-8">
+        <div class="col-lg-10 col-lg-offset-1">
             <h3>{% if page.wrap_title %}{{ page.wrap_title }}{% else %}{{ page.title }}{% endif %}</h3>
             {% if page.desc %}
 			<div class="post-desc">{{ page.desc }}</div>
@@ -14,7 +13,6 @@ layout: default
 			{% endif %}
 			<p><csmall>by {{ page.author }} on {{ page.date | date: "%b %-d, %Y" }}</csmall></p>
         </div>
-        <div class="col-lg-2"></div>
         </div><!-- /row -->
     </div> <!-- /container -->
 </div><!-- /blue -->
@@ -22,11 +20,9 @@ layout: default
 <div class="container">
     <div class="row">
         <! -- SINGLE POST -->
-        <div class="col-lg-2"></div>
-        <div class="col-lg-8">
+        <div class="col-lg-10 col-lg-offset-1">
               {{ content }}
-         </div><! --/col-lg-8 -->
-        <div class="col-lg-2"></div>
+         </div>
         
     </div><! --/row -->
 </div><! --/container -->
