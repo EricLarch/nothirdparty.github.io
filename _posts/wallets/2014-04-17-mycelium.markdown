@@ -8,6 +8,11 @@ img: mycelium.png
 thumb: mycelium.png
 
 ---
+
+Mycelium, founded in 2008, is a Bitcoin company with 35 employees located in Europe, Asia, and America. Mycelium offers mobile wallets for iPhone and Android. All of Mycelium’s applications are open source.
+
+Mycelium is a good option for new users, with basic features like watch-only addresses, cold storage spending, and HD accounts. Advanced options include TREZOR support, xpub/xpriv key exports, and decrypting BIP38 keys. Mycelium can also be used to restore a TREZOR seed.
+
 ##Security
 {: .security .wallet-sections}
 Mycelium, founded in 2008, is a Bitcoin company with 35 employees located in Europe, Asia, and America. Mycelium offers mobile wallets for iPhone and Android. All of Mycelium’s applications are open source.

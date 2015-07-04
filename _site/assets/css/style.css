@@ -271,20 +271,20 @@ hr.normal {
 
 .wallet-header {
 	margin-top: 70px !important;
-	margin-bottom: 0 !important;
+	margin-bottom: 15px !important;
 }
 
 .wallet-info {
-    margin: 0 0 20px;
-}
-
-.wallet-info .fa {
-    margin: 0 4px 0 0;
+    margin: 0 0 20px 121px;
 }
 
 .wallet-info-link {
     display: inline;
     margin: 0 20px 0 0;
+}
+
+.wallet-content {
+	margin-bottom: 20px;
 }
 
 .contribute-page {
@@ -309,14 +309,20 @@ hr.normal {
 
 @media (max-width: 767px) {
 	.wallet-info-link {
-    clear: both;
+    display: block;
+    margin: 0 20px 0 0;
 }
 }
 
 @media (max-width: 992px) { 
-	.contribute-page, .wallet-header .col-xs-0 {
+	.contribute-page {
 		display: none !important;
 	}
+	
+	.fa-lg {
+  width: (18em / 14);
+  text-align: center;
+}
 }
 
 /*	################################################################
