@@ -142,7 +142,7 @@ a:focus {
 }
 
 .home-showcase p {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .home-section-links {
@@ -406,7 +406,7 @@ hr.normal {
     width: 150px;
 }
 .wallet-index-wrap h3 {
-	color: #000;	
+	color: rgba(30, 30, 30, 0.8);	
 }
 
 .wallet-index-wrap h3:hover {
@@ -741,6 +741,7 @@ blockquote cite {
 	padding-top: 25px;
 	padding-bottom: 25px;
 	background: #00364c;
+	margin-top: 30px;
 }
 
 #footerwrap i {
@@ -761,14 +762,19 @@ blockquote cite {
 #blue {
 	background: #00b3fe;
 	margin-top: 60px;
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
 
 #blue h3 {
 	color: white;
-	margin-left: 15px;
+}
+
+#blue .post-desc {
+    color: white;
+    font-size: 17px;
+    opacity: 0.85;
 }
 
 .carousel-inner > .item > img,
@@ -800,8 +806,8 @@ blockquote cite {
 }
 
 csmall {
-	font-size: 12px;
-	color: #b3b3b3;
+    color: white;
+    font-size: 14px;
 }
 
 .spacing {
