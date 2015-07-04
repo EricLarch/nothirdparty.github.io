@@ -41,9 +41,9 @@ p {
 	padding: 0; 
 	margin-bottom: 12px; 
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	font-size: 15px; 
-	line-height: 24px;
+	font-weight: 300;
+	font-size: 17px; 
+	line-height: 26px;
 	color: rgba(30, 30, 30, 0.8); 
 	margin-top: 10px; 
 }
@@ -316,8 +316,24 @@ hr.normal {
 	}
 }
 
+.wallet-content .security, .wallet-content .privacy {
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    background-size: 32px auto;
+    margin-bottom: 15px;
+    padding: 5px 0 5px 45px;
+}
+
+.wallet-content .privacy {
+    background-image: url("/assets/img/icons/privacy.png");
+}
+
+.wallet-content .security {
+    background-image: url("/assets/img/icons/security.png");
+}
+
 .footer-logo {
-    background-image: url("http://nothirdparty.github.io/assets/img/icons/logo.png");
+    background-image: url("/assets/img/icons/logo.png");
     background-repeat: no-repeat;
     background-size: 45px auto !important;
     display: block;
@@ -373,6 +389,71 @@ hr.normal {
     color: #bebec0;
 }
 
+.wallet-image-index {
+    height: auto;
+    width: 70px;
+}
+
+.browse-wallets-info {
+    margin: 30px auto;
+    max-width: 800px;
+    width: 90%;
+}
+
+.wallet-index-wrap {
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+}
+
+.wallet-index-wrap h3 {
+    font-family: "Open Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.wallet-index-title {
+    border-bottom: 1px solid #ddd;
+    margin: 40px 0 25px;
+    padding: 0 0 25px;
+}
+
+.wallet-index-title span {
+	background-repeat: no-repeat;
+}
+
+.index-mobile-wallets span {
+    background-image: url("/assets/img/icons/mobile.png");
+    background-position: 0 50%;
+    background-size: 19px auto;
+    height: 46px;
+    padding: 0 0 0 30px;
+}
+
+.index-desktop-wallets span {
+    background-image: url("/assets/img/icons/desktop.png");
+    background-position: 0 50%;
+    background-size: 31px auto;
+    height: 46px;
+    padding: 0 0 0 45px;
+}
+
+.index-web-wallets span {
+    background-image: url("/assets/img/icons/web.png");
+    background-position: 0 48%;
+    background-size: 34px auto;
+    height: 46px;
+    padding: 0 0 0 49px;
+}
+
+.index-hardware-wallets span {
+    background-image: url("/assets/img/icons/hardware.png");
+    background-position: 0 50%;
+    background-size: 32px auto;
+    height: 46px;
+    padding: 0 0 0 45px;
+}
+
 /*	################################################################
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
@@ -388,7 +469,7 @@ hr.normal {
 }
 
 .navbar-header .navbar-brand {
-    background-image: url("http://nothirdparty.github.io/assets/img/icons/ntplogo.png");
+    background-image: url("/assets/img/icons/ntplogo.png");
     background-repeat: no-repeat;
     background-size: 265px auto;
     color: white;
