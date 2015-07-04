@@ -325,6 +325,63 @@ hr.normal {
 }
 }
 
+.footer-logo {
+    background-image: url("http://nothirdparty.github.io/assets/img/icons/logo.png");
+    background-repeat: no-repeat;
+    background-size: 45px auto !important;
+    display: block;
+    height: 50px;
+    margin: 0 auto;
+    width: 46px;
+}
+
+
+
+.footer-menu-title {
+    color: #fff;
+    font-family: "Montserrat",sans-serif;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+
+.footer-menu-title::after {
+    background: #fff none repeat scroll 0 0;
+    height: 2px;
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    width: 20px;
+	content: "";
+}
+
+#footerwrap a {
+	color: #fff;
+	opacity: 0.75;
+}
+
+#footerwrap a:hover {
+	color: #fff;
+	opacity: 1;
+}
+
+#footerwrap ul {
+	list-style: none;
+	padding: 0;
+}
+
+#footerwrap li {
+	margin: 0 0 7px;
+}
+
+.footer-logo-header-4 {
+    color: #ffffff;
+    margin: 16px 0 10px;
+}
+
+.footer-logo-header-5 {
+    color: #bebec0;
+}
+
 /*	################################################################
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
@@ -589,17 +646,9 @@ hr.normal {
 
 /* Footer */
 #footerwrap {
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	background: {{ site.colors.secondary }};
-}
-
-#footerwrap p {
-	color: {{ site.colors.footer_content }};
-}
-
-#footerwrap h4 {
-	color: {{ site.colors.footer_heading }};
 }
 
 #footerwrap i {
