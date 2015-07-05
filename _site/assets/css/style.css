@@ -239,6 +239,25 @@ hr.normal {
 	font-size: 16px;
 }
 
+.about-img {
+    border-radius: 50%;
+    height: auto;
+    width: 110px;
+}
+
+.profile-pic-wrap .name {
+    font-weight: 400;
+    margin: 10px 0 0;
+}
+
+.profile-pic-wrap .title {
+    margin: 0;
+}
+
+.profile-pic-wrap .background {
+    font-size: 16px;
+}
+
 
 @media (max-width: 767px) { 
 	.choose-wallet h3 {
