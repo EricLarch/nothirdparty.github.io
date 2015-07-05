@@ -1,5 +1,5 @@
 ---
-layout: wallet
+layout: mycelium
 title:  "Mycelium"
 date:   2014-04-25 16:54:46
 author: Jordan Tuwiner

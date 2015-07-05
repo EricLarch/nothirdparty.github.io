@@ -104,7 +104,7 @@ a:focus {
 }
 
 .wallet-icon-home {
-    background: #00b3fe url("http://nothirdparty.github.io/assets/img/icons/wallet.png") no-repeat scroll 50% center / 58px auto;
+    background: #00b3fe url("/assets/img/icons/wallet.png") no-repeat scroll 50% center / 58px auto;
     border-radius: 50%;
     height: 90px;
     margin: 0 auto 20px;
@@ -113,7 +113,7 @@ a:focus {
 }
 
 .kb-icon-home {
-    background: #00b3fe url("http://nothirdparty.github.io/assets/img/icons/kb.png") no-repeat scroll 50% center / 47px auto;
+    background: #00b3fe url("/assets/img/icons/kb.png") no-repeat scroll 50% center / 47px auto;
     border-radius: 50%;
     height: 90px;
     margin: 0 auto 20px;
@@ -236,7 +236,7 @@ hr.normal {
 
 .sub-overview p {
 	float: left;
-	clear: both;
+	font-size: 16px;
 }
 
 
@@ -245,8 +245,12 @@ hr.normal {
     font-size: 28px;
 }
 
+.sub-overview p {
+    margin: 0 0 15px 65px !important;
+}
+
 	.navbar-header .navbar-brand {
-    background-image: url("http://nothirdparty.github.io/assets/img/icons/logo.png") !important;
+    background-image: url("/assets/img/icons/logo.png") !important;
     background-size: 45px auto !important;
     margin: 0 0 0 15px;
     width: 60px !important;
@@ -443,7 +447,7 @@ hr.normal {
 
 .wallet-content .vitals {
     float: left;
-    margin: 17px 30px 15px 0;
+    margin: 8px 30px 15px 0;
     width: 240px;
 }
 
