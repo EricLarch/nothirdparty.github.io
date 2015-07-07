@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p { 
 	padding: 0; 
-	margin-bottom: 12px; 
+	margin-bottom: 20px; 
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 17px; 
@@ -143,6 +143,7 @@ a:focus {
 
 .home-showcase p {
     font-size: 16px;
+    margin: 0 0 15px;
 }
 
 .home-section-links {
@@ -295,6 +296,15 @@ hr.normal {
 	.footer-logo-header-5 {
 		margin-bottom: 40px !important;
 	}
+	
+	.wallet-content .vitals {
+    float: left !important;
+    margin: 10px 30px 15px 0 !important;
+}
+	
+	.home-showcase .col-md-4 {
+		margin-bottom: 35px;
+	}
 	}
 
 /*	################################################################
@@ -302,12 +312,14 @@ hr.normal {
 ################################################################# */
 
 .wallet-header-back {
-	background: #F9F9F9;
+    background: #f9f9f9 none repeat scroll 0 0;
+    border-bottom: 1px solid #c7c7c7;
+    margin: 0 0 20px;
 }
 
 .wallet-header {
 	margin-top: 70px !important;
-	margin-bottom: 15px !important;
+	margin-bottom: 5px !important;
 }
 
 .wallet-info {
@@ -319,21 +331,16 @@ hr.normal {
     margin: 0 20px 0 0;
 }
 
-.wallet-content {
-	margin-bottom: 20px;
+.wallet-info-link a {
+	color: rgba(30, 30, 30, 0.8);
 }
 
-.contribute-page {
-    background: #00b3fe none repeat scroll 0 0;
-    border-radius: 3px;
-    color: #fff;
-    display: inline-block;
-    float: right;
-    font-size: 17px;
-    margin: 37px 0;
-    padding: 10px;
-    text-align: center;
-    width: 230px;
+.wallet-info-link a:hover {
+	color: #00b3fe;
+}
+
+.wallet-content {
+	margin-bottom: 20px;
 }
 
 .wallet-logo {
@@ -349,19 +356,20 @@ hr.normal {
 }
 
 @media (max-width: 767px) {
-	.wallet-info-link {
-    display: block;
-    margin: 0 20px 5px 0;
-}
-	.contribute-page {
-		display: none !important;
-	}
+
 }
 
 @media (max-width: 500px) {
 	.wallet-content .vitals {
     margin: 0 0 15px !important;
     width: 100% !important;
+}
+}
+
+@media (max-width: 600px) {
+	.wallet-info-link {
+    display: block;
+    margin: 0 20px 5px 0;
 }
 }
 
@@ -479,13 +487,23 @@ hr.normal {
 }
 
 .wallet-content .vitals {
-    float: left;
-    margin: 8px 30px 15px 0;
+    float: right;
+    margin: -113px 30px 15px 0;
     width: 240px;
+}
+
+@media (min-width: 1200px) {
+	.wallet-content .vitals {
+    margin: -103px 30px 15px 0 !important;
+}
 }
 
 .bg-success {
     background-color: #dff0d8 !important;
+}
+
+.bg-danger {
+    background-color: #f2dede !important;
 }
 
 .index-mobile-wallets span {
