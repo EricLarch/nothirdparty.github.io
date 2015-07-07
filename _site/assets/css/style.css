@@ -264,6 +264,10 @@ hr.normal {
     font-size: 28px;
 }
 
+#footerwrap ul {
+    margin: 0 0 35px;
+}
+
 .sub-overview p {
     margin: 0 0 15px 65px !important;
 }
