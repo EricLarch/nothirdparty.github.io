@@ -468,6 +468,7 @@ hr.normal {
 .wallet-index-wrap {
     display: inline-block;
     text-align: center;
+    margin: 10px 0;
     width: 150px;
 }
 .wallet-index-wrap h3 {
