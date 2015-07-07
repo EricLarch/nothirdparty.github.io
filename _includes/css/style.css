@@ -269,6 +269,10 @@ hr.normal {
     width: 6% !important;
 }
 
+.footer-menu-title {
+    text-align: center;
+}
+
 #footerwrap ul {
     margin: 0 0 35px !important;
     text-align: center !important;
