@@ -264,8 +264,14 @@ hr.normal {
     font-size: 28px;
 }
 
+.footer-menu-title::after {
+    left: 47% !important;
+    width: 6% !important;
+}
+
 #footerwrap ul {
-    margin: 0 0 35px;
+    margin: 0 0 35px !important;
+    text-align: center !important;
 }
 
 .sub-overview p {
