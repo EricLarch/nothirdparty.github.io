@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-	<meta name="description" content="GreenBits Bitcoin wallet is the native Android version of GreenAddress. Its a multi-signature wallet that supports hardware wallets like TREZOR and Ledger." />
+	<meta name="description" content="Hive is an elegant Bitcoin wallet, available on the web, iPhone, and Android. Its clean interface and ease of use make it a good choice for beginners." />
 	
     <meta name="author" content="">
     <link rel="shortcut icon" href="/assets/ico/favicon.ico">
 
-    <title>GreenBits Bitcoin Wallet Features, Privacy and Security</title>
+    <title>Hive Bitcoin Wallet Features, Privacy and Security</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/assets/css/bootstrap.css" rel="stylesheet">
@@ -64,12 +64,12 @@
 <div class="container mtb wallet-header">
 	<div class="row">
 	  <div class="col-xs-12 col-lg-10 col-lg-offset-1">
-	  <img class="wallet-logo" src="/assets/img/blog/greenbits.png">
-	  <h1 class="ctitle"><a href="/wallets/greenbits/">GreenBits</a></h1>
+	  <img class="wallet-logo" src="/assets/img/blog/hive.png">
+	  <h1 class="ctitle"><a href="/wallets/hive/">Hive</a></h1>
 	 <div class="wallet-info"> 
-	 	<div class="wallet-info-link"><i class="fa fa-fw fa-link fa-lg"></i> <a href="http://greenaddress.it/">GreenAddress.it</a></div>
+	 	<div class="wallet-info-link"><i class="fa fa-fw fa-link fa-lg"></i> <a href="http://hivewallet.com/">hivewallet.com</a></div>
 	 	<div class="wallet-info-link"><i class="fa fa-fw fa-mobile fa-lg"></i> Mobile Wallet</div>
-	 	<div class="wallet-info-link"><i class="fa fa-fw fa-github fa-lg"></i> <a href="https://github.com/greenaddress/GreenBits">Open Source</a></div>
+	 	<div class="wallet-info-link"><i class="fa fa-fw fa-github fa-lg"></i> <a href="https://github.com/hivewallet">Open Source</a></div>
 	 </div>
 	 </div>
 	</div>
@@ -81,36 +81,28 @@
         <div class="col-lg-10 col-lg-offset-1">
             <! -- Blog Post  -->
             <div class="list-group vitals">
-			  <span class="list-group-item bg-success" href="#"><i class="fa fa-key fa-fw"></i>&nbsp; <span>Shared control of private keys</span></span>
-			  <a class="list-group-item" href="https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet&hl=en"><i class="fa fa-download fa-fw"></i>&nbsp; <span>Download (Android)</span></a>
-			  <a class="list-group-item" href="https://github.com/NoThirdParty/nothirdparty.github.io/blob/master/_posts/wallets/2015-07-07-greenbits.markdown"><i class="fa fa-pencil fa-fw"></i>&nbsp; <span>Contribute to this page</span></a>
+			  <span class="list-group-item bg-success" href="#"><i class="fa fa-key fa-fw"></i>&nbsp; <span>User controls private keys</span></span>
+			  <a class="list-group-item" href="https://web.hivewallet.com/"><i class="fa fa-sign-in fa-fw"></i>&nbsp; <span>Create Wallet (Web)</span></a>
+			  <a class="list-group-item" href="https://play.google.com/store/apps/details?id=com.hivewallet.hive.cordova"><i class="fa fa-download fa-fw"></i>&nbsp; <span>Download (Android)</span></a>
+			  <a class="list-group-item" href="https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=906990301&mt=8"><i class="fa fa-download fa-fw"></i>&nbsp; <span>Download (iOS)</span></a>
+			  <a class="list-group-item" href="https://github.com/NoThirdParty/nothirdparty.github.io/blob/master/_posts/wallets/2015-07-07-hive.markdown"><i class="fa fa-pencil fa-fw"></i>&nbsp; <span>Contribute to this page</span></a>
 			</div>
 
-            <p>GreenBits is the native Android version of <a href="/greenaddress/">GreenAddress</a>. It’s a multi-signature wallet that supports hardware wallets like TREZOR and Ledger. Seeds created with GreenAddress can be imported into GreenBits.</p>
+            <p>Hive is an elegant, HD Bitcoin wallet available on the web, iPhone, and Android. It aims to be ‘human-friendly’, allows you control private keys, and offers basic send and receive features. Hive also supports Litecoin.</p>
 
-<p>By default, GreenBits is a 2 of 2 multisignature wallet. In this case, you control one private key and GreenAddress the other. GreenAddress must sign every transaction.</p>
+<p>A 12-word seed is generated upon wallet creation. The seed can be imported to Hive’s web wallet if the original wallet was made on Android/iOS, and vice-versa.</p>
 
-<p>GreenAddress claims that it will never sign a double-spend transaction. Users can send &amp; receive to other GreenAddress and GreenBits users and receive instant confirmations, but this only works if the other party trusts GreenAddress.</p>
-
-<p>Some features, like disabling 2FA and spending limits, must be set using GreenAddress and not GreenBits.</p>
+<p>Hive offers a feature called ‘Waggle’, which, using your geo-location, scans for other Hive users within 1 kilometer of your location. Payments can then be sent by clicking on a name of users near your location.</p>
 
 <h2 class="security wallet-sections" id="security">Security</h2>
-<p>A mobile wallet is only as secure as the device it’s running on. GreenBits encrypts all your data and keys. An unrooted Android device should be used.</p>
+<p>A mobile wallet is only as secure as the device it’s running on. Hive encrypts all data and keys. An unrooted (Android)/non-jailbroken (iOS) device should be used.</p>
 
-<p>A backup is made by writing down the 24 word seed provided in the app. If the phone is reset or lost, all funds can be recovered by re-entering the seed.</p>
+<p>A 12-word seed is generated on account creation. This seed is an account backup; all addresses and funds can be restored with it.</p>
 
-<p>GreenBits offers a unique setup with its options of 2-2 wallets and 2-3 wallets.</p>
-
-<p>In a 2 of 2 wallet, you control one key and GreenBits controls the other. If GreenBit’s servers go down funds cannot be spent immediately because it would be impossible to access GB’s signature. GreenBits solves this by providing nLocktime transactions, which release funds after a chosen period of time. You must set this up using GreenAddress.</p>
-
-<p>GreenBits relies on GreenAddress’s servers for transaction data, and also uses Electrum servers for extra verification.</p>
-
-<p>A user-set PIN is required to open your wallet each time.</p>
+<p>A pin must be made on wallet creation, and is required upon opening the app or logging in.</p>
 
 <h2 class="privacy wallet-sections" id="privacy">Privacy</h2>
-<p>GreenAddress plans to add CoinJoin to GreenBits in a future update. GreenBits/GreenAddress know your IP address, balance, and addresses.</p>
-
-<p>As an HD wallet, GreenBits generates a new address for every transaction and does not re-use addresses. Using a new address for each transaction helps prevent spying on your payments and funds.</p>
+<p>As an HD wallet, Hive generates a new address for every transaction and does not re-use addresses. Using a new address for each transaction helps prevent spying on your payments and funds.</p>
 
  
         </div><! --/col-lg-10 -->

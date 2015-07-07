@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-	<meta name="description" content="GreenBits Bitcoin wallet is the native Android version of GreenAddress. Its a multi-signature wallet that supports hardware wallets like TREZOR and Ledger." />
+	<meta name="description" content="Mycelium is an advanced yet simple mobile wallet available for both Android and iOS devices and gives you full control of your private keys." />
 	
     <meta name="author" content="">
     <link rel="shortcut icon" href="/assets/ico/favicon.ico">
 
-    <title>GreenBits Bitcoin Wallet Features, Privacy and Security</title>
+    <title>GreenAddress Bitcoin Wallet Features, Privacy and Security</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/assets/css/bootstrap.css" rel="stylesheet">
@@ -64,12 +64,12 @@
 <div class="container mtb wallet-header">
 	<div class="row">
 	  <div class="col-xs-12 col-lg-10 col-lg-offset-1">
-	  <img class="wallet-logo" src="/assets/img/blog/greenbits.png">
-	  <h1 class="ctitle"><a href="/wallets/greenbits/">GreenBits</a></h1>
+	  <img class="wallet-logo" src="/assets/img/blog/greenaddress.png">
+	  <h1 class="ctitle"><a href="/wallets/greenaddress/">GreenAddress</a></h1>
 	 <div class="wallet-info"> 
 	 	<div class="wallet-info-link"><i class="fa fa-fw fa-link fa-lg"></i> <a href="http://greenaddress.it/">GreenAddress.it</a></div>
 	 	<div class="wallet-info-link"><i class="fa fa-fw fa-mobile fa-lg"></i> Mobile Wallet</div>
-	 	<div class="wallet-info-link"><i class="fa fa-fw fa-github fa-lg"></i> <a href="https://github.com/greenaddress/GreenBits">Open Source</a></div>
+	 	<div class="wallet-info-link"><i class="fa fa-fw fa-github fa-lg"></i> <a href="https://github.com/greenaddress/WalletCrx">Open Source</a></div>
 	 </div>
 	 </div>
 	</div>
@@ -82,35 +82,35 @@
             <! -- Blog Post  -->
             <div class="list-group vitals">
 			  <span class="list-group-item bg-success" href="#"><i class="fa fa-key fa-fw"></i>&nbsp; <span>Shared control of private keys</span></span>
-			  <a class="list-group-item" href="https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet&hl=en"><i class="fa fa-download fa-fw"></i>&nbsp; <span>Download (Android)</span></a>
-			  <a class="list-group-item" href="https://github.com/NoThirdParty/nothirdparty.github.io/blob/master/_posts/wallets/2015-07-07-greenbits.markdown"><i class="fa fa-pencil fa-fw"></i>&nbsp; <span>Contribute to this page</span></a>
+			  <a class="list-group-item" href="https://greenaddress.it/en/"><i class="fa fa-sign-in fa-fw"></i>&nbsp; <span>Create Wallet</span></a>
+			  <a class="list-group-item" href="https://itunes.apple.com/us/app/greenaddress/id889740745?mt=8#"><i class="fa fa-download fa-fw"></i>&nbsp; <span>Download (iOS)</span></a>
+			  <a class="list-group-item" href="https://play.google.com/store/apps/details?id=it.greenaddress.cordova"><i class="fa fa-download fa-fw"></i>&nbsp; <span>Download (Android)</span></a>
+			  <a class="list-group-item" href="https://github.com/NoThirdParty/nothirdparty.github.io/blob/master/_posts/wallets/2015-07-07-greenaddress.markdown"><i class="fa fa-pencil fa-fw"></i>&nbsp; <span>Contribute to this page</span></a>
 			</div>
 
-            <p>GreenBits is the native Android version of <a href="/greenaddress/">GreenAddress</a>. It’s a multi-signature wallet that supports hardware wallets like TREZOR and Ledger. Seeds created with GreenAddress can be imported into GreenBits.</p>
+            <p>GreenAddress is a multisignature Bitcoin wallet available on the web, desktop, Android, and iOS.</p>
 
-<p>By default, GreenBits is a 2 of 2 multisignature wallet. In this case, you control one private key and GreenAddress the other. GreenAddress must sign every transaction.</p>
+<p>By default GA is a 2 of 2 wallet, which means you control one private key, and GA the other. GreenAddress must sign every transaction. This forces you to rely on GA, but offers true 2-factor authentication.</p>
 
-<p>GreenAddress claims that it will never sign a double-spend transaction. Users can send &amp; receive to other GreenAddress and GreenBits users and receive instant confirmations, but this only works if the other party trusts GreenAddress.</p>
+<p>GA claims it will never sign a double-spend transaction. You can send &amp; receive to other GA users and receive instant confirmations, but this only works if both parties trust GreenAddress.</p>
 
-<p>Some features, like disabling 2FA and spending limits, must be set using GreenAddress and not GreenBits.</p>
+<p>You can log into your GA account in watch-only mode. The account balance can be viewed and payments requested, but funds cannot be spent.</p>
+
+<p>Users may add spending limits to their accounts. Because GreenAdress controls one key, it can prevent all transactions which request more than the set limit.</p>
+
+<p>GreenAddress’s servers provide transaction data, but also use Electrum servers for extra verification.</p>
 
 <h2 class="security wallet-sections" id="security">Security</h2>
-<p>A mobile wallet is only as secure as the device it’s running on. GreenBits encrypts all your data and keys. An unrooted Android device should be used.</p>
+<p>GreenAddress offers a unique setup with its options of 2-2 wallets and 2-3 wallets.</p>
 
-<p>A backup is made by writing down the 24 word seed provided in the app. If the phone is reset or lost, all funds can be recovered by re-entering the seed.</p>
+<p>In a 2 of 2 wallet, you control one key and GreenAddress the other. If GreenAddress’s servers go down, you cannot immediately spend funds because it would be impossible to access GA’s signature. GreenAddress solves this by providing nLocktime transactions, which release funds after a chosen period of time.</p>
 
-<p>GreenBits offers a unique setup with its options of 2-2 wallets and 2-3 wallets.</p>
-
-<p>In a 2 of 2 wallet, you control one key and GreenBits controls the other. If GreenBit’s servers go down funds cannot be spent immediately because it would be impossible to access GB’s signature. GreenBits solves this by providing nLocktime transactions, which release funds after a chosen period of time. You must set this up using GreenAddress.</p>
-
-<p>GreenBits relies on GreenAddress’s servers for transaction data, and also uses Electrum servers for extra verification.</p>
-
-<p>A user-set PIN is required to open your wallet each time.</p>
+<p>GreenAddress has a PIN feature that is required to access funds. After three incorrect guesses, the wallet is erased from GA servers and recovery must be done with the seed.</p>
 
 <h2 class="privacy wallet-sections" id="privacy">Privacy</h2>
-<p>GreenAddress plans to add CoinJoin to GreenBits in a future update. GreenBits/GreenAddress know your IP address, balance, and addresses.</p>
+<p>Users in need of privacy should avoid linking their social networks to their account. GreenAddress plans to add CoinJoin in a future update. GA knows your IP address and balance.</p>
 
-<p>As an HD wallet, GreenBits generates a new address for every transaction and does not re-use addresses. Using a new address for each transaction helps prevent spying on your payments and funds.</p>
+<p>As an HD wallet, GreenAddress generates a new address for every transaction and does not re-use addresses. Using a new address for each transaction helps prevent spying on your payments and funds.</p>
 
  
         </div><! --/col-lg-10 -->

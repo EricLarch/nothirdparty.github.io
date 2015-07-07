@@ -5,9 +5,111 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>http://nothirdparty.com//</link>
     <atom:link href="http://nothirdparty.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 07 Jul 2015 17:17:00 +0300</pubDate>
-    <lastBuildDate>Tue, 07 Jul 2015 17:17:00 +0300</lastBuildDate>
+    <pubDate>Tue, 07 Jul 2015 22:18:00 +0300</pubDate>
+    <lastBuildDate>Tue, 07 Jul 2015 22:18:00 +0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Wallets: GreenAddress</title>
+        <description>&lt;p&gt;GreenAddress is a multisignature Bitcoin wallet available on the web, desktop, Android, and iOS.&lt;/p&gt;
+
+&lt;p&gt;By default GA is a 2 of 2 wallet, which means you control one private key, and GA the other. GreenAddress must sign every transaction. This forces you to rely on GA, but offers true 2-factor authentication.&lt;/p&gt;
+
+&lt;p&gt;GA claims it will never sign a double-spend transaction. You can send &amp;amp; receive to other GA users and receive instant confirmations, but this only works if both parties trust GreenAddress.&lt;/p&gt;
+
+&lt;p&gt;You can log into your GA account in watch-only mode. The account balance can be viewed and payments requested, but funds cannot be spent.&lt;/p&gt;
+
+&lt;p&gt;Users may add spending limits to their accounts. Because GreenAdress controls one key, it can prevent all transactions which request more than the set limit.&lt;/p&gt;
+
+&lt;p&gt;GreenAddress’s servers provide transaction data, but also use Electrum servers for extra verification.&lt;/p&gt;
+
+&lt;h2 class=&quot;security wallet-sections&quot; id=&quot;security&quot;&gt;Security&lt;/h2&gt;
+&lt;p&gt;GreenAddress offers a unique setup with its options of 2-2 wallets and 2-3 wallets.&lt;/p&gt;
+
+&lt;p&gt;In a 2 of 2 wallet, you control one key and GreenAddress the other. If GreenAddress’s servers go down, you cannot immediately spend funds because it would be impossible to access GA’s signature. GreenAddress solves this by providing nLocktime transactions, which release funds after a chosen period of time.&lt;/p&gt;
+
+&lt;p&gt;GreenAddress has a PIN feature that is required to access funds. After three incorrect guesses, the wallet is erased from GA servers and recovery must be done with the seed.&lt;/p&gt;
+
+&lt;h2 class=&quot;privacy wallet-sections&quot; id=&quot;privacy&quot;&gt;Privacy&lt;/h2&gt;
+&lt;p&gt;Users in need of privacy should avoid linking their social networks to their account. GreenAddress plans to add CoinJoin in a future update. GA knows your IP address and balance.&lt;/p&gt;
+
+&lt;p&gt;As an HD wallet, GreenAddress generates a new address for every transaction and does not re-use addresses. Using a new address for each transaction helps prevent spying on your payments and funds.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 07 Jul 2015 19:58:46 +0300</pubDate>
+        <link>http://nothirdparty.com//wallets/greenaddress/</link>
+        <guid isPermaLink="true">http://nothirdparty.com//wallets/greenaddress/</guid>
+        
+        
+        <category>wallets</category>
+        
+        <category>web</category>
+        
+        <category>desktop</category>
+        
+      </item>
+    
+      <item>
+        <title>Wallets: Hive</title>
+        <description>&lt;p&gt;Hive is an elegant, HD Bitcoin wallet available on the web, iPhone, and Android. It aims to be ‘human-friendly’, allows you control private keys, and offers basic send and receive features. Hive also supports Litecoin.&lt;/p&gt;
+
+&lt;p&gt;A 12-word seed is generated upon wallet creation. The seed can be imported to Hive’s web wallet if the original wallet was made on Android/iOS, and vice-versa.&lt;/p&gt;
+
+&lt;p&gt;Hive offers a feature called ‘Waggle’, which, using your geo-location, scans for other Hive users within 1 kilometer of your location. Payments can then be sent by clicking on a name of users near your location.&lt;/p&gt;
+
+&lt;h2 class=&quot;security wallet-sections&quot; id=&quot;security&quot;&gt;Security&lt;/h2&gt;
+&lt;p&gt;A mobile wallet is only as secure as the device it’s running on. Hive encrypts all data and keys. An unrooted (Android)/non-jailbroken (iOS) device should be used.&lt;/p&gt;
+
+&lt;p&gt;A 12-word seed is generated on account creation. This seed is an account backup; all addresses and funds can be restored with it.&lt;/p&gt;
+
+&lt;p&gt;A pin must be made on wallet creation, and is required upon opening the app or logging in.&lt;/p&gt;
+
+&lt;h2 class=&quot;privacy wallet-sections&quot; id=&quot;privacy&quot;&gt;Privacy&lt;/h2&gt;
+&lt;p&gt;As an HD wallet, Hive generates a new address for every transaction and does not re-use addresses. Using a new address for each transaction helps prevent spying on your payments and funds.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 07 Jul 2015 19:56:46 +0300</pubDate>
+        <link>http://nothirdparty.com//wallets/hive/</link>
+        <guid isPermaLink="true">http://nothirdparty.com//wallets/hive/</guid>
+        
+        
+        <category>wallets</category>
+        
+        <category>mobile</category>
+        
+        <category>web</category>
+        
+      </item>
+    
+      <item>
+        <title>Wallets: Bitcoin Wallet</title>
+        <description>&lt;p&gt;Bitcoin Wallet, or “Schildbach Wallet”, was the first mobile Bitcoin wallet and has over 700,000 users in the Google Play Store and about 100,000 users in the BlackBerry AppWorld.&lt;/p&gt;
+
+&lt;h2 class=&quot;security wallet-sections&quot; id=&quot;security&quot;&gt;Security&lt;/h2&gt;
+&lt;p&gt;A mobile wallet is only as secure as the device it’s running on. An unrooted Android device should be used.&lt;/p&gt;
+
+&lt;p&gt;A file containing the wallet’s private keys are encrypted and stored on your phone. The file should be backed up to another location in case your phone is lost or reset.&lt;/p&gt;
+
+&lt;p&gt;Bitcoin Wallet is more secure than most mobile Bitcoin wallets, because it connects directly to the Bitcoin network with SPV. Most other wallets connect to centralized servers for transaction information.&lt;/p&gt;
+
+&lt;h2 class=&quot;privacy wallet-sections&quot; id=&quot;privacy&quot;&gt;Privacy&lt;/h2&gt;
+&lt;p&gt;Bitcoin Wallet is an HD wallet. It generates a new address for each transaction making it more difficult for spying or tracking your payments.&lt;/p&gt;
+
+&lt;p&gt;Because the wallet connects directly to the Bitcoin network peers can see your phone’s IP address.&lt;/p&gt;
+
+&lt;p&gt;Bitcoin wallet received a score of 46 out of 100 from the Open Bitcoin Privacy Project’s &lt;a href=&quot;http://openbitcoinprivacyproject.org/2015/05/spring-2015-wallet-privacy-rating-report/&quot;&gt;Spring 2015 report&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 07 Jul 2015 19:55:46 +0300</pubDate>
+        <link>http://nothirdparty.com//wallets/bitcoin-wallet/</link>
+        <guid isPermaLink="true">http://nothirdparty.com//wallets/bitcoin-wallet/</guid>
+        
+        
+        <category>wallets</category>
+        
+        <category>mobile</category>
+        
+      </item>
     
       <item>
         <title>Wallets: GreenBits</title>

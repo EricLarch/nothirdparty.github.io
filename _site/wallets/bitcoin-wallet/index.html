@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-	<meta name="description" content="GreenBits Bitcoin wallet is the native Android version of GreenAddress. Its a multi-signature wallet that supports hardware wallets like TREZOR and Ledger." />
+	<meta name="description" content="Bitcoin Wallet was the first mobile Bitcoin wallet. BW offers simple send/receive features, a direct connection to the Bitcoin network, and more." />
 	
     <meta name="author" content="">
     <link rel="shortcut icon" href="/assets/ico/favicon.ico">
 
-    <title>GreenBits Bitcoin Wallet Features, Privacy and Security</title>
+    <title>Bitcoin Wallet Features, Privacy and Security</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/assets/css/bootstrap.css" rel="stylesheet">
@@ -64,12 +64,12 @@
 <div class="container mtb wallet-header">
 	<div class="row">
 	  <div class="col-xs-12 col-lg-10 col-lg-offset-1">
-	  <img class="wallet-logo" src="/assets/img/blog/greenbits.png">
-	  <h1 class="ctitle"><a href="/wallets/greenbits/">GreenBits</a></h1>
+	  <img class="wallet-logo" src="/assets/img/blog/bwallet.png">
+	  <h1 class="ctitle"><a href="/wallets/bitcoin-wallet/">Bitcoin Wallet</a></h1>
 	 <div class="wallet-info"> 
-	 	<div class="wallet-info-link"><i class="fa fa-fw fa-link fa-lg"></i> <a href="http://greenaddress.it/">GreenAddress.it</a></div>
+	 	<div class="wallet-info-link"><i class="fa fa-fw fa-link fa-lg"></i> <a href="http://wallet.schildbach.de/">wallet.schildbach.de</a></div>
 	 	<div class="wallet-info-link"><i class="fa fa-fw fa-mobile fa-lg"></i> Mobile Wallet</div>
-	 	<div class="wallet-info-link"><i class="fa fa-fw fa-github fa-lg"></i> <a href="https://github.com/greenaddress/GreenBits">Open Source</a></div>
+	 	<div class="wallet-info-link"><i class="fa fa-fw fa-github fa-lg"></i> <a href="https://github.com/schildbach/bitcoin-wallet">Open Source</a></div>
 	 </div>
 	 </div>
 	</div>
@@ -81,36 +81,26 @@
         <div class="col-lg-10 col-lg-offset-1">
             <! -- Blog Post  -->
             <div class="list-group vitals">
-			  <span class="list-group-item bg-success" href="#"><i class="fa fa-key fa-fw"></i>&nbsp; <span>Shared control of private keys</span></span>
-			  <a class="list-group-item" href="https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet&hl=en"><i class="fa fa-download fa-fw"></i>&nbsp; <span>Download (Android)</span></a>
-			  <a class="list-group-item" href="https://github.com/NoThirdParty/nothirdparty.github.io/blob/master/_posts/wallets/2015-07-07-greenbits.markdown"><i class="fa fa-pencil fa-fw"></i>&nbsp; <span>Contribute to this page</span></a>
+			  <span class="list-group-item bg-success" href="#"><i class="fa fa-key fa-fw"></i>&nbsp; <span>User controls private keys</span></span>
+			  <a class="list-group-item" href="https://play.google.com/store/apps/details?id=de.schildbach.wallet"><i class="fa fa-download fa-fw"></i>&nbsp; <span>Download (Android)</span></a>
+			  <a class="list-group-item" href="https://github.com/NoThirdParty/nothirdparty.github.io/blob/master/_posts/wallets/2015-07-07-bitcoin-wallet.markdown"><i class="fa fa-pencil fa-fw"></i>&nbsp; <span>Contribute to this page</span></a>
 			</div>
 
-            <p>GreenBits is the native Android version of <a href="/greenaddress/">GreenAddress</a>. It’s a multi-signature wallet that supports hardware wallets like TREZOR and Ledger. Seeds created with GreenAddress can be imported into GreenBits.</p>
-
-<p>By default, GreenBits is a 2 of 2 multisignature wallet. In this case, you control one private key and GreenAddress the other. GreenAddress must sign every transaction.</p>
-
-<p>GreenAddress claims that it will never sign a double-spend transaction. Users can send &amp; receive to other GreenAddress and GreenBits users and receive instant confirmations, but this only works if the other party trusts GreenAddress.</p>
-
-<p>Some features, like disabling 2FA and spending limits, must be set using GreenAddress and not GreenBits.</p>
+            <p>Bitcoin Wallet, or “Schildbach Wallet”, was the first mobile Bitcoin wallet and has over 700,000 users in the Google Play Store and about 100,000 users in the BlackBerry AppWorld.</p>
 
 <h2 class="security wallet-sections" id="security">Security</h2>
-<p>A mobile wallet is only as secure as the device it’s running on. GreenBits encrypts all your data and keys. An unrooted Android device should be used.</p>
+<p>A mobile wallet is only as secure as the device it’s running on. An unrooted Android device should be used.</p>
 
-<p>A backup is made by writing down the 24 word seed provided in the app. If the phone is reset or lost, all funds can be recovered by re-entering the seed.</p>
+<p>A file containing the wallet’s private keys are encrypted and stored on your phone. The file should be backed up to another location in case your phone is lost or reset.</p>
 
-<p>GreenBits offers a unique setup with its options of 2-2 wallets and 2-3 wallets.</p>
-
-<p>In a 2 of 2 wallet, you control one key and GreenBits controls the other. If GreenBit’s servers go down funds cannot be spent immediately because it would be impossible to access GB’s signature. GreenBits solves this by providing nLocktime transactions, which release funds after a chosen period of time. You must set this up using GreenAddress.</p>
-
-<p>GreenBits relies on GreenAddress’s servers for transaction data, and also uses Electrum servers for extra verification.</p>
-
-<p>A user-set PIN is required to open your wallet each time.</p>
+<p>Bitcoin Wallet is more secure than most mobile Bitcoin wallets, because it connects directly to the Bitcoin network with SPV. Most other wallets connect to centralized servers for transaction information.</p>
 
 <h2 class="privacy wallet-sections" id="privacy">Privacy</h2>
-<p>GreenAddress plans to add CoinJoin to GreenBits in a future update. GreenBits/GreenAddress know your IP address, balance, and addresses.</p>
+<p>Bitcoin Wallet is an HD wallet. It generates a new address for each transaction making it more difficult for spying or tracking your payments.</p>
 
-<p>As an HD wallet, GreenBits generates a new address for every transaction and does not re-use addresses. Using a new address for each transaction helps prevent spying on your payments and funds.</p>
+<p>Because the wallet connects directly to the Bitcoin network peers can see your phone’s IP address.</p>
+
+<p>Bitcoin wallet received a score of 46 out of 100 from the Open Bitcoin Privacy Project’s <a href="http://openbitcoinprivacyproject.org/2015/05/spring-2015-wallet-privacy-rating-report/">Spring 2015 report</a>.</p>
 
  
         </div><! --/col-lg-10 -->

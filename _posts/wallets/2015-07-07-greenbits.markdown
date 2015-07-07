@@ -5,7 +5,7 @@ date:   2015-07-07 16:54:46
 author: Jordan Tuwiner
 permalink: /wallets/greenbits/
 img: greenbits.png
-desc: Mycelium is an advanced yet simple mobile wallet available for both Android and iOS devices and gives you full control of your private keys.
+desc: GreenBits Bitcoin wallet is the native Android version of GreenAddress. Its a multi-signature wallet that supports hardware wallets like TREZOR and Ledger.
 thumb: greenbits.png
 categories: 
 - wallets
