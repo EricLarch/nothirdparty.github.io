@@ -282,6 +282,25 @@ hr.normal {
 	margin: 0 auto;
 }
 
+.android-img-kb {
+	max-width: 300px;
+	margin-bottom: 20px;
+}
+
+.table-kb h3 {
+	margin: 0 0 5px;
+	font-family: "Open Sans",sans-serif;
+}
+
+.table-kb .kb-desc {
+	margin: 0;
+}
+
+.table-kb .published-date {
+	text-align: center;
+	vertical-align: middle;
+}
+
 @media (max-width: 767px) { 
 	.choose-wallet h3 {
     font-size: 28px;
