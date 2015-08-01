@@ -1,9 +1,10 @@
 ---
-layout: hive
+layout: wallet
 title:  "Hive"
 date:   2015-07-07 16:56:46
 author: Jordan Tuwiner
 permalink: /wallets/hive/
+wallet: hive
 img: hive.png
 desc: Hive is an elegant Bitcoin wallet, available on the web, iPhone, and Android. Its clean interface and ease of use make it a good choice for beginners.
 thumb: hive.png

@@ -1,0 +1,79 @@
+mycelium:
+  website: Mycelium.com
+  website_url: https://mycelium.com/
+  mobile_wallet: yes
+  desktop_wallet: no
+  web_wallet: no
+  hardware_wallet: no
+  open_source: yes
+  open_source_url: https://github.com/mycelium-com
+  control_priv_keys: yes
+  download_ios: yes
+  download_ios_url: https://itunes.apple.com/us/app/mycelium-bitcoin-wallet/id943912290?mt=8
+  download_android: yes
+  download_android_url: https://play.google.com/store/apps/details?id=com.mycelium.wallet
+  contribute_url: https://github.com/NoThirdParty/nothirdparty.github.io/blob/master/_posts/wallets/2015-07-07-mycelium.markdown
+
+hive:
+  website: hivewallet.com
+  website_url: https://hivewallet.com/
+  web_wallet: yes
+  create: yes
+  create_url: https://web.hivewallet.com/
+  open_source: yes
+  open_source_url: https://github.com/hivewallet
+  control_priv_keys: yes
+  download_ios: yes
+  download_ios_url: https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=906990301&mt=8
+  download_android: yes
+  download_android_url: https://play.google.com/store/apps/details?id=com.hivewallet.hive.cordova
+  contribute_url: https://github.com/NoThirdParty/nothirdparty.github.io/blob/master/_posts/wallets/2015-07-07-hive.markdown
+  
+greenaddress:
+  website: greenaddress.it
+  website_url: https://greenaddress.it/
+  web_wallet: yes
+  create: yes
+  create_url: https://greenaddress.it/en/
+  open_source: yes
+  open_source_url: https://github.com/greenaddress/WalletCrx
+  control_priv_keys: yes
+  download_ios: yes
+  download_ios_url: https://itunes.apple.com/us/app/greenaddress/id889740745?mt=8#
+  download_android: yes
+  download_android_url: https://play.google.com/store/apps/details?id=it.greenaddress.cordova
+  contribute_url: https://github.com/NoThirdParty/nothirdparty.github.io/blob/master/_posts/wallets/2015-07-07-greenaddress.markdown
+
+greenbits:
+  website: greenaddress.it
+  website_url: https://greenaddress.it/
+  mobile_wallet: yes
+  open_source: yes
+  open_source_url: https://github.com/greenaddress/GreenBits
+  shared_control_priv_keys: yes
+  download_android: yes
+  download_android_url: https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet&hl=en
+  contribute_url: https://github.com/NoThirdParty/nothirdparty.github.io/blob/master/_posts/wallets/2015-07-07-greenbits.markdown
+  
+bwallet:
+  website: wallet.schildbach.de
+  website_url: http://wallet.schildbach.de/
+  mobile_wallet: yes
+  open_source: yes
+  open_source_url: https://github.com/schildbach/bitcoin-wallet
+  control_priv_keys: yes
+  download_android: yes
+  download_android_url: https://play.google.com/store/apps/details?id=de.schildbach.wallet
+  contribute_url: https://github.com/NoThirdParty/nothirdparty.github.io/blob/master/_posts/wallets/2015-07-07-bitcoin-wallet.markdown
+  
+electrum:
+  website: electrum.org
+  website_url: http://electrum.org/
+  desktop_wallet: yes
+  open_source: yes
+  open_source_url: https://github.com/spesmilo/electrum
+  control_priv_keys: yes
+  download_desktop: yes
+  download_desktop_url: https://electrum.org/#download
+  contribute_url: https://github.com/NoThirdParty/nothirdparty.github.io/blob/master/_posts/wallets/2015-07-07-electrum.markdown
+  

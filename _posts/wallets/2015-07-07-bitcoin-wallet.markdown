@@ -1,5 +1,6 @@
 ---
-layout: bwallet
+layout: wallet
+wallet: bwallet
 title:  "Bitcoin Wallet"
 date:   2015-07-07 16:55:46
 author: Jordan Tuwiner

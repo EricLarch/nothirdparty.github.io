@@ -1,6 +1,7 @@
 ---
-layout: greenaddress
+layout: wallet
 title:  "GreenAddress"
+wallet: greenaddress
 date:   2015-07-07 16:58:46
 author: Jordan Tuwiner
 permalink: /wallets/greenaddress/

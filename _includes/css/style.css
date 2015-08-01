@@ -259,6 +259,10 @@ hr.normal {
     font-size: 16px;
 }
 
+.wallet-index-wrap .electrum, .electrum .wallet-logo {
+	border-radius: 50%;
+}
+
 
 @media (max-width: 767px) { 
 	.choose-wallet h3 {

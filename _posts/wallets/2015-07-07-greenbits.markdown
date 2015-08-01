@@ -1,6 +1,7 @@
 ---
-layout: greenbits
+layout: wallet
 title:  "GreenBits"
+wallet: greenbits
 date:   2015-07-07 16:54:46
 author: Jordan Tuwiner
 permalink: /wallets/greenbits/
@@ -14,7 +15,7 @@ keywords: "GreenBits Bitcoin Wallet Features, Privacy and Security"
 
 ---
 
-GreenBits is the native Android version of [GreenAddress](/greenaddress/). It’s a multi-signature wallet that supports hardware wallets like TREZOR and Ledger. Seeds created with GreenAddress can be imported into GreenBits.
+GreenBits is the native Android version of [GreenAddress](/wallets/greenaddress/). It’s a multi-signature wallet that supports hardware wallets like TREZOR and Ledger. Seeds created with GreenAddress can be imported into GreenBits.
 
 By default, GreenBits is a 2 of 2 multisignature wallet. In this case, you control one private key and GreenAddress the other. GreenAddress must sign every transaction.
 

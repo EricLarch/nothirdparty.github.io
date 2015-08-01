@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-	<meta name="description" content="GreenBits Bitcoin wallet is the native Android version of GreenAddress. Its a multi-signature wallet that supports hardware wallets like TREZOR and Ledger." />
+	<meta name="description" content="Electrum is a desktop Bitcoin wallet built for speed and security. Its simple interface &amp; advanced features make it a good option for new & advanced users." />
 	
     <meta name="author" content="">
     <link rel="shortcut icon" href="/assets/ico/favicon.ico">
-    <link rel="canonical" href="http://nothirdparty.com//wallets/greenbits/">
+    <link rel="canonical" href="http://nothirdparty.com//wallets/electrum/">
 
-    <title>GreenBits Bitcoin Wallet Features, Privacy and Security</title>
+    <title>Electrum Bitcoin Wallet Features, Privacy and Security</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/assets/css/bootstrap.css" rel="stylesheet">
@@ -63,70 +63,68 @@
 
             
 <div class="wallet-header-back">
-<div class="container mtb wallet-header greenbits">
+<div class="container mtb wallet-header electrum">
 	<div class="row">
 	  <div class="col-xs-12 col-lg-10 col-lg-offset-1">
-	  <img class="wallet-logo" src="/assets/img/blog/greenbits.png">
-	  <h1 class="ctitle"><a href="/wallets/greenbits/">GreenBits</a></h1>
+	  <img class="wallet-logo" src="/assets/img/blog/electrum.png">
+	  <h1 class="ctitle"><a href="/wallets/electrum/">Electrum</a></h1>
 	 <div class="wallet-info"> 
-	 	<div class="wallet-info-link"><i class="fa fa-fw fa-link fa-lg"></i> <a href="https://greenaddress.it/">greenaddress.it</a></div>
-	 	
-	 	<div class="wallet-info-link"><i class="fa fa-fw fa-mobile fa-lg"></i> Mobile Wallet</div>
+	 	<div class="wallet-info-link"><i class="fa fa-fw fa-link fa-lg"></i> <a href="http://electrum.org/">electrum.org</a></div>
 	 	
 	 	
 	 	
 	 	
+	 	<div class="wallet-info-link"><i class="fa fa-fw fa-mobile fa-lg"></i> Desktop Wallet</div>
 	 	
-	 	<div class="wallet-info-link"><i class="fa fa-fw fa-github fa-lg"></i> <a href="https://github.com/greenaddress/GreenBits">Open Source</a></div>
+	 	
+	 	<div class="wallet-info-link"><i class="fa fa-fw fa-github fa-lg"></i> <a href="https://github.com/spesmilo/electrum">Open Source</a></div>
 	 	
 	 </div>
 	 </div>
 	</div>
 </div>
 </div>
-<div class="container wallet-content greenbits">
+<div class="container wallet-content electrum">
     <div class="row">
         <! -- SINGLE POST -->
         <div class="col-lg-10 col-lg-offset-1">
             <! -- Blog Post  -->
             <div class="list-group vitals">
 			  
+			  <span class="list-group-item bg-success"><i class="fa fa-key fa-fw"></i>&nbsp; <span>User controls private keys</span></span>
 			  
-			  <span class="list-group-item bg-success"><i class="fa fa-key fa-fw"></i>&nbsp; <span>Shared control of private keys</span></span>
 			  
 			  
 	 	      
+			  <a class="list-group-item" href="https://electrum.org/#download"><i class="fa fa-download fa-fw"></i>&nbsp; <span>Download</span></a>
 			  
-			  <a class="list-group-item" href="https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet&hl=en"><i class="fa fa-download fa-fw"></i>&nbsp; <span>Download (Android)</span></a>
 			  
 			  
-			  <a class="list-group-item" href="https://github.com/NoThirdParty/nothirdparty.github.io/blob/master/_posts/wallets/2015-07-07-greenbits.markdown"><i class="fa fa-pencil fa-fw"></i>&nbsp; <span>Contribute to this page</span></a>
+			  <a class="list-group-item" href="https://github.com/NoThirdParty/nothirdparty.github.io/blob/master/_posts/wallets/2015-07-07-electrum.markdown"><i class="fa fa-pencil fa-fw"></i>&nbsp; <span>Contribute to this page</span></a>
 			</div>
-            <p>GreenBits is the native Android version of <a href="/wallets/greenaddress/">GreenAddress</a>. It’s a multi-signature wallet that supports hardware wallets like TREZOR and Ledger. Seeds created with GreenAddress can be imported into GreenBits.</p>
+            <p>Electrum is a light weight Bitcoin wallet for Mac, Linux, and Windows. It was created in November 2011.</p>
 
-<p>By default, GreenBits is a 2 of 2 multisignature wallet. In this case, you control one private key and GreenAddress the other. GreenAddress must sign every transaction.</p>
-
-<p>GreenAddress claims that it will never sign a double-spend transaction. Users can send &amp; receive to other GreenAddress and GreenBits users and receive instant confirmations, but this only works if the other party trusts GreenAddress.</p>
-
-<p>Some features, like disabling 2FA and spending limits, must be set using GreenAddress and not GreenBits.</p>
+<p>The main features of Electrum are support for hardware wallets TREZOR and HW1, secure cold storage using an offline computer, and decentralized verification using SPV.</p>
 
 <h2 class="security wallet-sections" id="security">Security</h2>
-<p>A mobile wallet is only as secure as the device it’s running on. GreenBits encrypts all your data and keys. An unrooted Android device should be used.</p>
+<p>Electrum functions as a hot wallet or cold storage. For both wallet types, a 12 word seed is generated which allows you to backup and restore the entire wallet and its keys.</p>
 
-<p>A backup is made by writing down the 24 word seed provided in the app. If the phone is reset or lost, all funds can be recovered by re-entering the seed.</p>
+<p>For cold storage, a seed is generated on a secure offline computer and written to a piece of paper. A master public key is created from the seed and imported into a separate Electrum install on your everyday computer. You can now view the wallet balance, accept payments, and create new addresses on a hot computer without the risk of funds being stolen. All transactions must be signed by the offline computer.</p>
 
-<p>GreenBits offers a unique setup with its options of 2-2 wallets and 2-3 wallets.</p>
+<p>All Electrum private keys are encrypted and never leave your computer. Electrum wallets not using an offline computer should be treated as a hot wallet, as it’s still possible to have malware steal funds.</p>
 
-<p>In a 2 of 2 wallet, you control one key and GreenBits controls the other. If GreenBit’s servers go down funds cannot be spent immediately because it would be impossible to access GB’s signature. GreenBits solves this by providing nLocktime transactions, which release funds after a chosen period of time. You must set this up using GreenAddress.</p>
-
-<p>GreenBits relies on GreenAddress’s servers for transaction data, and also uses Electrum servers for extra verification.</p>
-
-<p>A user-set PIN is required to open your wallet each time.</p>
+<p>Although Electrum relies on third-party servers, the worst attack possible is the faking of transaction data. The servers have no way of accessing funds.</p>
 
 <h2 class="privacy wallet-sections" id="privacy">Privacy</h2>
-<p>GreenAddress plans to add CoinJoin to GreenBits in a future update. GreenBits/GreenAddress know your IP address, balance, and addresses.</p>
+<p>Electrum is a lightweight Bitcoin client, and uses servers created by users to get transaction and balance information. A server has no way of knowing your actual identity, but does know your IP address, wallet addresses, and balance.</p>
 
-<p>As an HD wallet, GreenBits generates a new address for every transaction and does not re-use addresses. Using a new address for each transaction helps prevent spying on your payments and funds.</p>
+<p>Tor can be used to prevent the server from knowing your IP address, but cannot prevent the server from knowing that a list of addresses belong to one entity.</p>
+
+<p>Some servers claim to not log or store information, but it is impossible to know for sure without setting up your own Electrum server.</p>
+
+<p>As an HD wallet, Electrum generates a new address for every transaction and does not re-use addresses. Using a new address for each transaction helps prevent spying on your payments and funds.</p>
+
+<p>Electrum received a score of 46 out of 100 from the Open Bitcoin Privacy Project’s <a href="http://www.openbitcoinprivacyproject.org/2015/05/spring-2015-wallet-privacy-rating-report/">Spring 2015 report</a>.</p>
 
  
         </div><! --/col-lg-10 -->

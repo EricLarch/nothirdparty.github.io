@@ -9,6 +9,7 @@
 	{% endif %}
     <meta name="author" content="">
     <link rel="shortcut icon" href="{{ "/assets/ico/favicon.ico" | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <title>{% if page.keywords %}{{ page.keywords }}{% else %}{{ page.title }}{% endif %}</title>
 
