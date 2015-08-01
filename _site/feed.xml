@@ -5,46 +5,42 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>http://nothirdparty.com//</link>
     <atom:link href="http://nothirdparty.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 01 Aug 2015 11:58:02 -0400</pubDate>
-    <lastBuildDate>Sat, 01 Aug 2015 11:58:02 -0400</lastBuildDate>
+    <pubDate>Sat, 01 Aug 2015 15:54:29 -0400</pubDate>
+    <lastBuildDate>Sat, 01 Aug 2015 15:54:29 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Wallets: GreenAddress</title>
-        <description>&lt;p&gt;GreenAddress is a multisignature Bitcoin wallet available on the web, desktop, Android, and iOS.&lt;/p&gt;
+        <title>Wallets: Mycelium</title>
+        <description>&lt;p&gt;Mycelium, founded in 2008, is a Bitcoin company with 35 employees located in Europe, Asia, and America. Mycelium offers mobile wallets for iPhone and Android. All of Mycelium’s applications are open source.&lt;/p&gt;
 
-&lt;p&gt;By default GA is a 2 of 2 wallet, which means you control one private key, and GA the other. GreenAddress must sign every transaction. This forces you to rely on GA, but offers true 2-factor authentication.&lt;/p&gt;
-
-&lt;p&gt;GA claims it will never sign a double-spend transaction. You can send &amp;amp; receive to other GA users and receive instant confirmations, but this only works if both parties trust GreenAddress.&lt;/p&gt;
-
-&lt;p&gt;You can log into your GA account in watch-only mode. The account balance can be viewed and payments requested, but funds cannot be spent.&lt;/p&gt;
-
-&lt;p&gt;Users may add spending limits to their accounts. Because GreenAdress controls one key, it can prevent all transactions which request more than the set limit.&lt;/p&gt;
-
-&lt;p&gt;GreenAddress’s servers provide transaction data, but also use Electrum servers for extra verification.&lt;/p&gt;
+&lt;p&gt;Mycelium is a good option for new users, with basic features like watch-only addresses, cold storage spending, and HD accounts. Advanced options include TREZOR support, xpub/xpriv key exports, and decrypting BIP38 keys. Mycelium can also be used to &lt;a href=&quot;/kb/restore-trezor-seed-mycelium-android/&quot;&gt;restore a TREZOR seed&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 class=&quot;security wallet-sections&quot; id=&quot;security&quot;&gt;Security&lt;/h2&gt;
-&lt;p&gt;GreenAddress offers a unique setup with its options of 2-2 wallets and 2-3 wallets.&lt;/p&gt;
+&lt;p&gt;A mobile wallet is only as secure as the device it’s running on. Mycelium encrypts all your data and keys. An unrooted (Android)/non-jailbroken (iOS) device should be used.&lt;/p&gt;
 
-&lt;p&gt;In a 2 of 2 wallet, you control one key and GreenAddress the other. If GreenAddress’s servers go down, you cannot immediately spend funds because it would be impossible to access GA’s signature. GreenAddress solves this by providing nLocktime transactions, which release funds after a chosen period of time.&lt;/p&gt;
+&lt;p&gt;Users can create a backup by writing down the 12 word seed provided in the app. If the phone is reset or lost, all funds can be recovered by re-entering the seed.&lt;/p&gt;
 
-&lt;p&gt;GreenAddress has a PIN feature that is required to access funds. After three incorrect guesses, the wallet is erased from GA servers and recovery must be done with the seed.&lt;/p&gt;
+&lt;p&gt;Mycelium is a hot wallet and should not be used to store a significant amount of funds.&lt;/p&gt;
 
 &lt;h2 class=&quot;privacy wallet-sections&quot; id=&quot;privacy&quot;&gt;Privacy&lt;/h2&gt;
-&lt;p&gt;Users in need of privacy should avoid linking their social networks to their account. GreenAddress plans to add CoinJoin in a future update. GA knows your IP address and balance.&lt;/p&gt;
+&lt;p&gt;Both the iOS and Android apps connect directly to the Mycelium’s servers. Directly connecting to Mycelium’s servers allows for instant connection to the Bitcoin network, but reduces privacy.&lt;/p&gt;
 
-&lt;p&gt;As an HD wallet, GreenAddress generates a new address for every transaction and does not re-use addresses. Using a new address for each transaction helps prevent spying on your payments and funds.&lt;/p&gt;
+&lt;p&gt;Mycelium’s servers can view your IP address and wallet balance. The &lt;a href=&quot;https://www.mycelium.com/wallet/FAQ.html#q019&quot;&gt;company website claims&lt;/a&gt; to not log IP information, but there is no way to be sure. Orbot/Tor can be used to hide your IP address from Mycelium.&lt;/p&gt;
+
+&lt;p&gt;As an HD wallet, a new address is created for every transaction and addresses are not re-used. Using a new address for each transaction helps prevent spying on your payments and funds.&lt;/p&gt;
+
+&lt;p&gt;The Mycelium developers recognized that users value their privacy, and plan to implement CoinJoin in future updates.&lt;/p&gt;
+
+&lt;p&gt;Mycelium received a score of 50 out of 100 from the Open Bitcoin Privacy Project’s &lt;a href=&quot;http://www.openbitcoinprivacyproject.org/2015/05/spring-2015-wallet-privacy-rating-report/&quot;&gt;Spring 2015 report&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 07 Jul 2015 12:58:46 -0400</pubDate>
-        <link>http://nothirdparty.com//wallets/greenaddress/</link>
-        <guid isPermaLink="true">http://nothirdparty.com//wallets/greenaddress/</guid>
+        <pubDate>Tue, 07 Jul 2015 13:54:46 -0400</pubDate>
+        <link>http://nothirdparty.com//wallets/mycelium/</link>
+        <guid isPermaLink="true">http://nothirdparty.com//wallets/mycelium/</guid>
         
         
         <category>wallets</category>
         
-        <category>web</category>
-        
-        <category>desktop</category>
+        <category>mobile</category>
         
       </item>
     
@@ -88,62 +84,27 @@
       </item>
     
       <item>
-        <title>Wallets: Hive</title>
-        <description>&lt;p&gt;Hive is an elegant, HD Bitcoin wallet available on the web, iPhone, and Android. It aims to be ‘human-friendly’, allows you control private keys, and offers basic send and receive features. Hive also supports Litecoin.&lt;/p&gt;
-
-&lt;p&gt;A 12-word seed is generated upon wallet creation. The seed can be imported to Hive’s web wallet if the original wallet was made on Android/iOS, and vice-versa.&lt;/p&gt;
-
-&lt;p&gt;Hive offers a feature called ‘Waggle’, which, using your geo-location, scans for other Hive users within 1 kilometer of your location. Payments can then be sent by clicking on a name of users near your location.&lt;/p&gt;
+        <title>Wallets: Hive Mac</title>
+        <description>&lt;p&gt;Hive is a native, elegant Bitcoin wallet for Mac. It aims to be ‘human-friendly’ and supports over 30 languages. Wallets created with the mobile/web version cannot be imported to Hive Mac.&lt;/p&gt;
 
 &lt;h2 class=&quot;security wallet-sections&quot; id=&quot;security&quot;&gt;Security&lt;/h2&gt;
-&lt;p&gt;A mobile wallet is only as secure as the device it’s running on. Hive encrypts all data and keys. An unrooted (Android)/non-jailbroken (iOS) device should be used.&lt;/p&gt;
+&lt;p&gt;Private keys are encrypted with a password and stored on your computer.  Hive is a hot wallet and should be used for small amounts of Bitcoin.&lt;/p&gt;
 
-&lt;p&gt;A 12-word seed is generated on account creation. This seed is an account backup; all addresses and funds can be restored with it.&lt;/p&gt;
-
-&lt;p&gt;A pin must be made on wallet creation, and is required upon opening the app or logging in.&lt;/p&gt;
+&lt;p&gt;Your wallet and its keys can be backed up through Google Drive, Time Machine, or Dropbox.&lt;/p&gt;
 
 &lt;h2 class=&quot;privacy wallet-sections&quot; id=&quot;privacy&quot;&gt;Privacy&lt;/h2&gt;
-&lt;p&gt;As an HD wallet, Hive generates a new address for every transaction and does not re-use addresses. Using a new address for each transaction helps prevent spying on your payments and funds.&lt;/p&gt;
+&lt;p&gt;Hive Mac &lt;a href=&quot;https://github.com/hivewallet/hive-mac/wiki/FAQ#can-i-create-more-than-one-address-or-multiple-wallets&quot;&gt;creates one address&lt;/a&gt; which must be used to receive all funds. This is detrimental to privacy and allows others to see your entire transaction history.&lt;/p&gt;
+
+&lt;p&gt;Hive Mac uses bitcoinj and SPV to connect to the Bitcoin network. Peers can connect your IP address to the single address used in Hive.&lt;/p&gt;
 </description>
         <pubDate>Tue, 07 Jul 2015 12:56:46 -0400</pubDate>
-        <link>http://nothirdparty.com//wallets/hive/</link>
-        <guid isPermaLink="true">http://nothirdparty.com//wallets/hive/</guid>
+        <link>http://nothirdparty.com//wallets/hive-mac/</link>
+        <guid isPermaLink="true">http://nothirdparty.com//wallets/hive-mac/</guid>
         
         
         <category>wallets</category>
         
-        <category>mobile</category>
-        
-        <category>web</category>
-        
-      </item>
-    
-      <item>
-        <title>Wallets: Bitcoin Wallet</title>
-        <description>&lt;p&gt;Bitcoin Wallet, or “Schildbach Wallet”, was the first mobile Bitcoin wallet and has over 700,000 users in the Google Play Store and about 100,000 users in the BlackBerry AppWorld.&lt;/p&gt;
-
-&lt;h2 class=&quot;security wallet-sections&quot; id=&quot;security&quot;&gt;Security&lt;/h2&gt;
-&lt;p&gt;A mobile wallet is only as secure as the device it’s running on. An unrooted Android device should be used.&lt;/p&gt;
-
-&lt;p&gt;A file containing the wallet’s private keys are encrypted and stored on your phone. The file should be backed up to another location in case your phone is lost or reset.&lt;/p&gt;
-
-&lt;p&gt;Bitcoin Wallet is more secure than most mobile Bitcoin wallets, because it connects directly to the Bitcoin network with SPV. Most other wallets connect to centralized servers for transaction information.&lt;/p&gt;
-
-&lt;h2 class=&quot;privacy wallet-sections&quot; id=&quot;privacy&quot;&gt;Privacy&lt;/h2&gt;
-&lt;p&gt;Bitcoin Wallet is an HD wallet. It generates a new address for each transaction making it more difficult for spying or tracking your payments.&lt;/p&gt;
-
-&lt;p&gt;Because the wallet connects directly to the Bitcoin network peers can see your phone’s IP address.&lt;/p&gt;
-
-&lt;p&gt;Bitcoin wallet received a score of 46 out of 100 from the Open Bitcoin Privacy Project’s &lt;a href=&quot;http://openbitcoinprivacyproject.org/2015/05/spring-2015-wallet-privacy-rating-report/&quot;&gt;Spring 2015 report&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 07 Jul 2015 12:55:46 -0400</pubDate>
-        <link>http://nothirdparty.com//wallets/bitcoin-wallet/</link>
-        <guid isPermaLink="true">http://nothirdparty.com//wallets/bitcoin-wallet/</guid>
-        
-        
-        <category>wallets</category>
-        
-        <category>mobile</category>
+        <category>desktop</category>
         
       </item>
     
@@ -175,7 +136,7 @@
 
 &lt;p&gt;As an HD wallet, GreenBits generates a new address for every transaction and does not re-use addresses. Using a new address for each transaction helps prevent spying on your payments and funds.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 07 Jul 2015 12:54:46 -0400</pubDate>
+        <pubDate>Tue, 07 Jul 2015 12:56:46 -0400</pubDate>
         <link>http://nothirdparty.com//wallets/greenbits/</link>
         <guid isPermaLink="true">http://nothirdparty.com//wallets/greenbits/</guid>
         
@@ -187,132 +148,39 @@
       </item>
     
       <item>
-        <title>Kb: Test KB</title>
-        <description>
-</description>
-        <pubDate>Sun, 05 Jul 2015 12:54:46 -0400</pubDate>
-        <link>http://nothirdparty.com//kb/test/</link>
-        <guid isPermaLink="true">http://nothirdparty.com//kb/test/</guid>
-        
-        
-        <category>kb</category>
-        
-      </item>
-    
-      <item>
-        <title>Blog: Why No Third Party?</title>
-        <description>&lt;p&gt;Satoshi’s Nakamoto, the creator of Bitcoin, had clear intentions. Here is the first sentence of his email introducing his new creation:&lt;/p&gt;
-&lt;blockquote&gt;I&#39;ve been working on a new electronic cash system that&#39;s fully
-peer-to-peer, with no trusted third party.
-&lt;cite&gt;Satoshi Nakamoto, &lt;a href=&quot;http://satoshi.nakamotoinstitute.org/emails/cryptography/1/#selection-19.0-14.6&quot;&gt;Bitcoin P2P e-cash paper&lt;/a&gt;&lt;/cite&gt;&lt;/blockquote&gt;
-&lt;p&gt;Before Bitcoin, currency was government issued and electronic transactions required third party processing. Governments inflate money at will, stealing from entire populations. Many Argentinians have lost their life savings multiple times because of hyperinflation.&lt;/p&gt;
+        <title>Wallets: GreenAddress</title>
+        <description>&lt;p&gt;GreenAddress is a multisignature Bitcoin wallet available on the web, desktop, Android, and iOS.&lt;/p&gt;
 
-&lt;p&gt;Services like bank wires, PayPal, and Western Union require trusted entities to move money and verify transactions. Trusted entities must follow strict regulations and can freeze funds at any time. Cypriots, who put their trust in banks, were unable to withdrawal their own money during the 2013 bailouts.&lt;/p&gt;
+&lt;p&gt;By default GA is a 2 of 2 wallet, which means you control one private key, and GA the other. GreenAddress must sign every transaction. This forces you to rely on GA, but offers true 2-factor authentication.&lt;/p&gt;
 
-&lt;p&gt;Bitcoin eliminates the need for trust in third parties. The supply of Bitcoin is known and visible to anyone who looks at &lt;a href=&quot;https://github.com/bitcoin/bitcoin&quot;&gt;the code&lt;/a&gt;. All bitcoin transactions are, like cash, made directly from person-to-person. Transactions are validated by Bitcoin miners. The network is for anyone to use and distributed–so no one entity has control and it cannot be shut down.&lt;/p&gt;
+&lt;p&gt;GA claims it will never sign a double-spend transaction. You can send &amp;amp; receive to other GA users and receive instant confirmations, but this only works if both parties trust GreenAddress.&lt;/p&gt;
 
-&lt;p&gt;Use the network whenever. Leave whenever. Nobody can prevent you from creating an account. No one can force you to use Bitcoin. No one can freeze your funds. Bitcoin is voluntary.&lt;/p&gt;
+&lt;p&gt;You can log into your GA account in watch-only mode. The account balance can be viewed and payments requested, but funds cannot be spent.&lt;/p&gt;
 
-&lt;p&gt;What are the implications and benefits of finance with no third parties?&lt;/p&gt;
-&lt;h3&gt;Cryptographically Secure&lt;/h3&gt;
-&lt;blockquote&gt;A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution. Digital signatures provide part of the solution, but the main benefits are lost if a trusted third party is still required to prevent double-spending.
-&lt;cite&gt;Satoshi Nakamoto, &lt;a href=&quot;http://nakamotoinstitute.org/bitcoin/#selection-37.4-37.325&quot;&gt;Bitcoin: A Peer-to-Peer Electronic Cash System&lt;/a&gt;&lt;/cite&gt;&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://coincenter.org/2014/12/bitcoin-mining/&quot;&gt;Bitcoin miners&lt;/a&gt; secure the network with proof of work. A bank account balance is simply a number in a database. You trust the bank to honor your balance. Bitcoin eliminates the need for trusted institutions. You can trust the network.&lt;/p&gt;
+&lt;p&gt;Users may add spending limits to their accounts. Because GreenAdress controls one key, it can prevent all transactions which request more than the set limit.&lt;/p&gt;
 
-&lt;p&gt;Bitcoin is like cash. If I own one bitcoin, I can be 100% sure I have one bitcoin. Bitcoin is secured by proof of work and can’t be counterfeited.&lt;/p&gt;
-
-&lt;p&gt;Trust computers instead of people.&lt;/p&gt;
-&lt;h3&gt;Peer-to-Peer&lt;/h3&gt;
-&lt;blockquote&gt;I&#39;ve been working on a new electronic cash system that&#39;s fully
-peer-to-peer, with no trusted third party.
-&lt;cite&gt;Satoshi Nakamoto, &lt;a href=&quot;http://satoshi.nakamotoinstitute.org/emails/cryptography/1/#selection-19.0-14.6&quot;&gt;Bitcoin P2P e-cash paper&lt;/a&gt;&lt;/cite&gt;&lt;/blockquote&gt;
-&lt;p&gt;Peer-to-peer systems are voluntary. I can’t force you to use Bitcoin. You can’t force me. It’s a dumb network and accepts everyone. Bitcoin offers no barrier to entry.&lt;/p&gt;
-
-&lt;p&gt;Bitcoin transactions are faster, global, and cheap. Bitcoin can be sent from Canada to Japan in minutes, for a cost of about $0.02 no matter how large the transaction.&lt;/p&gt;
-&lt;h3&gt;Effortless Transactions&lt;/h3&gt;
-&lt;blockquote&gt;With e-currency based on cryptographic proof, without the need to trust a third party middleman, money can be secure and transactions effortless.
-&lt;cite&gt;Satoshi Nakamoto, &lt;a href=&quot;http://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/#selection-41.43-2.19&quot;&gt;Bitcoin open source implementation of P2P currency&lt;/a&gt;&lt;/cite&gt;&lt;/blockquote&gt;
-&lt;p&gt;Financial institutions slow down payments. Bitcoin makes sending money almost instant. There’s no bank, and no hours. &lt;a href=&quot;http://www.bitcoinuptime.com/&quot;&gt;Bitcoin works 24/7&lt;/a&gt;, anywhere with an internet connection. You can buy something or pay for services as fast as you can send an email. Payments, no matter how big or small, are now frictionless.&lt;/p&gt;
-&lt;h3&gt;No Need for Trust (Third Party)&lt;/h3&gt;
-&lt;blockquote&gt;Commerce on the Internet has come to rely almost exclusively on financial institutions serving as trusted third parties to process electronic payments. While the system works well enough for most transactions, it still suffers from the inherent weaknesses of the trust based model.
-&lt;cite&gt;Satoshi Nakamoto, &lt;a href=&quot;http://nakamotoinstitute.org/bitcoin/#selection-45.4-45.286&quot;&gt;Bitcoin: A Peer-to-Peer Electronic Cash System&lt;/a&gt;&lt;/cite&gt;&lt;/blockquote&gt;
-&lt;p&gt;Bitcoin gives us financial freedom. Governments can’t control the currency supply and inflate it recklessly. There will only be 21 million bitcoin. This is Bitcoin’s killer app.&lt;/p&gt;
-
-&lt;p&gt;With Bitcoin you own your money, and no one else can freeze your funds or payments.&lt;/p&gt;
-&lt;blockquote&gt;What is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party.
-&lt;cite&gt;Satoshi Nakamoto, &lt;a href=&quot;http://nakamotoinstitute.org/bitcoin/#selection-49.4-49.211&quot;&gt;Bitcoin: A Peer-to-Peer Electronic Cash System&lt;/a&gt;&lt;/cite&gt;&lt;/blockquote&gt;
-&lt;h3&gt;The Future&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;http://bitstein.org/blog/bitcoin-the-currency/&quot;&gt;Bitcoin&lt;em&gt; the currency&lt;/em&gt;&lt;/a&gt; will change the financial landscape. The internet made information and communication global, easy, and fast. Bitcoin will do the same for money.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/wallets/&quot;&gt;Bitcoin wallets&lt;/a&gt; give you access to the new world of money and finance. No Third Party provides you with the tools necessary to navigate the new peer-to-peer economy.&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 20 Jun 2015 12:54:46 -0400</pubDate>
-        <link>http://nothirdparty.com//blog/why-no-third-party/</link>
-        <guid isPermaLink="true">http://nothirdparty.com//blog/why-no-third-party/</guid>
-        
-        
-        <category>blog</category>
-        
-        <category>meta</category>
-        
-      </item>
-    
-      <item>
-        <title>Wallets: Mycelium</title>
-        <description>&lt;p&gt;Mycelium, founded in 2008, is a Bitcoin company with 35 employees located in Europe, Asia, and America. Mycelium offers mobile wallets for iPhone and Android. All of Mycelium’s applications are open source.&lt;/p&gt;
-
-&lt;p&gt;Mycelium is a good option for new users, with basic features like watch-only addresses, cold storage spending, and HD accounts. Advanced options include TREZOR support, xpub/xpriv key exports, and decrypting BIP38 keys. Mycelium can also be used to &lt;a href=&quot;/kb/restore-trezor-seed-mycelium-android/&quot;&gt;restore a TREZOR seed&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;GreenAddress’s servers provide transaction data, but also use Electrum servers for extra verification.&lt;/p&gt;
 
 &lt;h2 class=&quot;security wallet-sections&quot; id=&quot;security&quot;&gt;Security&lt;/h2&gt;
-&lt;p&gt;A mobile wallet is only as secure as the device it’s running on. Mycelium encrypts all your data and keys. An unrooted (Android)/non-jailbroken (iOS) device should be used.&lt;/p&gt;
+&lt;p&gt;GreenAddress offers a unique setup with its options of 2-2 wallets and 2-3 wallets.&lt;/p&gt;
 
-&lt;p&gt;Users can create a backup by writing down the 12 word seed provided in the app. If the phone is reset or lost, all funds can be recovered by re-entering the seed.&lt;/p&gt;
+&lt;p&gt;In a 2 of 2 wallet, you control one key and GreenAddress the other. If GreenAddress’s servers go down, you cannot immediately spend funds because it would be impossible to access GA’s signature. GreenAddress solves this by providing nLocktime transactions, which release funds after a chosen period of time.&lt;/p&gt;
 
-&lt;p&gt;Mycelium is a hot wallet and should not be used to store a significant amount of funds.&lt;/p&gt;
+&lt;p&gt;GreenAddress has a PIN feature that is required to access funds. After three incorrect guesses, the wallet is erased from GA servers and recovery must be done with the seed.&lt;/p&gt;
 
 &lt;h2 class=&quot;privacy wallet-sections&quot; id=&quot;privacy&quot;&gt;Privacy&lt;/h2&gt;
-&lt;p&gt;Both the iOS and Android apps connect directly to the Mycelium’s servers. Directly connecting to Mycelium’s servers allows for instant connection to the Bitcoin network, but reduces privacy.&lt;/p&gt;
+&lt;p&gt;Users in need of privacy should avoid linking their social networks to their account. GreenAddress plans to add CoinJoin in a future update. GA knows your IP address and balance.&lt;/p&gt;
 
-&lt;p&gt;Mycelium’s servers can view your IP address and wallet balance. The &lt;a href=&quot;https://www.mycelium.com/wallet/FAQ.html#q019&quot;&gt;company website claims&lt;/a&gt; to not log IP information, but there is no way to be sure. Orbot/Tor can be used to hide your IP address from Mycelium.&lt;/p&gt;
-
-&lt;p&gt;As an HD wallet, a new address is created for every transaction and addresses are not re-used. Using a new address for each transaction helps prevent spying on your payments and funds.&lt;/p&gt;
-
-&lt;p&gt;The Mycelium developers recognized that users value their privacy, and plan to implement CoinJoin in future updates.&lt;/p&gt;
-
-&lt;p&gt;Mycelium received a score of 50 out of 100 from the Open Bitcoin Privacy Project’s &lt;a href=&quot;http://www.openbitcoinprivacyproject.org/2015/05/spring-2015-wallet-privacy-rating-report/&quot;&gt;Spring 2015 report&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As an HD wallet, GreenAddress generates a new address for every transaction and does not re-use addresses. Using a new address for each transaction helps prevent spying on your payments and funds.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 25 Apr 2014 12:54:46 -0400</pubDate>
-        <link>http://nothirdparty.com//wallets/mycelium/</link>
-        <guid isPermaLink="true">http://nothirdparty.com//wallets/mycelium/</guid>
+        <pubDate>Tue, 07 Jul 2015 12:56:46 -0400</pubDate>
+        <link>http://nothirdparty.com//wallets/greenaddress/</link>
+        <guid isPermaLink="true">http://nothirdparty.com//wallets/greenaddress/</guid>
         
         
         <category>wallets</category>
         
-        <category>mobile</category>
-        
-      </item>
-    
-      <item>
-        <title>Wallets: Hive Mac</title>
-        <description>&lt;p&gt;Hive is a native, elegant Bitcoin wallet for Mac. It aims to be ‘human-friendly’ and supports over 30 languages. Wallets created with the mobile/web version cannot be imported to Hive Mac.&lt;/p&gt;
-
-&lt;h2 class=&quot;security wallet-sections&quot; id=&quot;security&quot;&gt;Security&lt;/h2&gt;
-&lt;p&gt;Private keys are encrypted with a password and stored on your computer.  Hive is a hot wallet and should be used for small amounts of Bitcoin.&lt;/p&gt;
-
-&lt;p&gt;Your wallet and its keys can be backed up through Google Drive, Time Machine, or Dropbox.&lt;/p&gt;
-
-&lt;h2 class=&quot;privacy wallet-sections&quot; id=&quot;privacy&quot;&gt;Privacy&lt;/h2&gt;
-&lt;p&gt;Hive Mac &lt;a href=&quot;https://github.com/hivewallet/hive-mac/wiki/FAQ#can-i-create-more-than-one-address-or-multiple-wallets&quot;&gt;creates one address&lt;/a&gt; which must be used to receive all funds. This is detrimental to privacy and allows others to see your entire transaction history.&lt;/p&gt;
-
-&lt;p&gt;Hive Mac uses bitcoinj and SPV to connect to the Bitcoin network. Peers can connect your IP address to the single address used in Hive.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 25 Apr 2014 12:54:46 -0400</pubDate>
-        <link>http://nothirdparty.com//wallets/hive-mac/</link>
-        <guid isPermaLink="true">http://nothirdparty.com//wallets/hive-mac/</guid>
-        
-        
-        <category>wallets</category>
+        <category>web</category>
         
         <category>desktop</category>
         
@@ -344,7 +212,7 @@ peer-to-peer, with no trusted third party.
 
 &lt;p&gt;Electrum received a score of 46 out of 100 from the Open Bitcoin Privacy Project’s &lt;a href=&quot;http://www.openbitcoinprivacyproject.org/2015/05/spring-2015-wallet-privacy-rating-report/&quot;&gt;Spring 2015 report&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 25 Apr 2014 12:54:46 -0400</pubDate>
+        <pubDate>Tue, 07 Jul 2015 12:56:46 -0400</pubDate>
         <link>http://nothirdparty.com//wallets/electrum/</link>
         <guid isPermaLink="true">http://nothirdparty.com//wallets/electrum/</guid>
         
@@ -352,6 +220,144 @@ peer-to-peer, with no trusted third party.
         <category>wallets</category>
         
         <category>desktop</category>
+        
+      </item>
+    
+      <item>
+        <title>Wallets: Coinkite</title>
+        <description>&lt;p&gt;Coinkite is a bitcoin platform with multisig wallets, merchant tools, and a developer API. It’s been in business for over 2 years and is based in Canada.&lt;/p&gt;
+
+&lt;h2 class=&quot;security wallet-sections&quot; id=&quot;security&quot;&gt;Security&lt;/h2&gt;
+&lt;p&gt;Coinkite offers two kinds of wallets: a “Simple Wallet” where CK signs the transactions and holds the private keys, and “Multisig Vaults” where you control the keys.&lt;/p&gt;
+
+&lt;p&gt;The “Simple Wallet” is a BIP32 HD wallet where Coinkite’s HSM (Hardware Security Modules) securely generates and holds private keys. An encrypted back up of the keys is also sent to you by email. In this option you trade trust on Coinkite for convenience. The “Simple Wallet” should not be used to store large amounts of bitcoin. With full control over all “Simple Wallet” accounts and private keys, Coinkite can offer server side automation (i.e. Bitcoin Forwarding) but if shut down your account could be blocked. Coinkite has a dead-man-switch for service continuation in that case, releasing a global password to open the backups.&lt;/p&gt;
+
+&lt;p&gt;Coinkite’s “Multsig” wallets allow up 15 co-signers, which can be: signed by CK, an encrypted wallet stored on CK, a new key generated by CK, another CK user, the Ledger hardware wallet, or any offline generated BIP32 key. Coinkite’s multisig wallets give you 100% control of private keys.&lt;/p&gt;
+
+&lt;p&gt;Users must trust Coinkite to provide the correct transaction data but also includes links with third party verification.&lt;/p&gt;
+
+&lt;h2 class=&quot;privacy wallet-sections&quot; id=&quot;privacy&quot;&gt;Privacy&lt;/h2&gt;
+&lt;p&gt;Coinkite doesn’t require email or any personal information on signup and can be accessed with a TOR onion address: http://gcvqzacplu4veul4.onion.&lt;/p&gt;
+
+&lt;p&gt;You can generate new addresses on deman, but the “quick deposit” feature reuses the same address. Address reuse makes it easy for others to observe your history on the blockchain and connect your addresses and funds.&lt;/p&gt;
+
+&lt;p&gt;CK has no US servers. All backups are in Switzerland and encrypted row by row.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Jul 2015 12:56:46 -0400</pubDate>
+        <link>http://nothirdparty.com//wallets/coinkite/</link>
+        <guid isPermaLink="true">http://nothirdparty.com//wallets/coinkite/</guid>
+        
+        
+        <category>wallets</category>
+        
+        <category>web</category>
+        
+      </item>
+    
+      <item>
+        <title>Wallets: Coinbase</title>
+        <description>&lt;p&gt;Coinbase was founded in 2013. It’s a US-based Bitcoin company that has received over $100 million in VC funding.&lt;/p&gt;
+
+&lt;p&gt;Accounts may be accessed through Coinbase’s website, or with its iPhone and Android applications.&lt;/p&gt;
+
+&lt;h2 class=&quot;security wallet-sections&quot; id=&quot;security&quot;&gt;Security&lt;/h2&gt;
+&lt;p&gt;Users may create three types of wallets with Coinbase: wallet, vault, and multisig vault.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Wallet:&lt;/strong&gt; Coinbase controls the private keys. You must trust that Coinbase will keep the keys secure. You must also keep your account password safe, and also the 2FA code if activated. Coinbase is a VC backed company with over $100 million in funding and likely has a very strong security setup. However, the point of Bitcoin is that users have the ability to control their own money. Coinbase can shut down your account and block access to your funds at any time.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Vault:&lt;/strong&gt; Coinbase offers a unique solution for securing larger amounts of bitcoin. Bitcoin stored in a Vault account can be protected by multiple approvers. If a user adds two approvers to his vault, both must confirm that the withdrawal is valid before it processes. All withdrawals from Vaults take 48-hours to process. The time delay provides a safety net; if you see a withdrawal was requested that you did not make, the withdrawal may be cancelled. Like the hot wallet, you must trust Coinbase to secure vault funds. Vault accounts can also be shutdown by Coinbase at anytime.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Multisig Vault:&lt;/strong&gt; Coinbase understands that many users want complete control over their funds. Its multi-sig vault is a 2 of 3 wallet, where Coinbase has one key, one key is shared, and the third key is held by the account holder. Any two of the three keys allows spending of funds. If Coinbase goes down, you still have both the shared key and your own key. Funds cannot be held because the shared key is encrypted with your password.&lt;/p&gt;
+
+&lt;h2 class=&quot;privacy wallet-sections&quot; id=&quot;privacy&quot;&gt;Privacy&lt;/h2&gt;
+&lt;p&gt;Your name, phone number, email, and a number of other personal details are required. Coinbase knows your addresses and balance at all times and can connect this with your identity and IP address. You must trust Coinbase’s nodes to verify transaction data.&lt;/p&gt;
+
+&lt;p&gt;Because Coinbase has buy/sell features, it must follow all KYC laws. There have been reports that it &lt;a href=&quot;http://cointelegraph.com/news/113207/coinbase-is-tracking-how-users-spend-their-bitcoins&quot;&gt;tracks how its users spend bitcoin&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Each payment request uses a new address, which helps prevent other users from connecting Bitcoin addresses together.&lt;/p&gt;
+
+&lt;p&gt;Coinbase received a score of 11 out of 100 from the Open Bitcoin Privacy Project’s &lt;a href=&quot;http://openbitcoinprivacyproject.org/2015/05/spring-2015-wallet-privacy-rating-report/&quot;&gt;Spring 2015 report&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Jul 2015 12:56:46 -0400</pubDate>
+        <link>http://nothirdparty.com//wallets/coinbase/</link>
+        <guid isPermaLink="true">http://nothirdparty.com//wallets/coinbase/</guid>
+        
+        
+        <category>wallets</category>
+        
+        <category>web</category>
+        
+      </item>
+    
+      <item>
+        <title>Wallets: Circle</title>
+        <description>&lt;p&gt;Circle is a digital money company focused on making money “instant, secure, and free”. Its homepage only briefly mentions Bitcoin, and its wallet doesn’t do much more than receiving and spending.&lt;/p&gt;
+
+&lt;p&gt;Accounts may be accessed on Circle’s website and iPhone or Android app. Both apps allow the buying and selling of bitcoin and basic sending and receiving of payments.&lt;/p&gt;
+
+&lt;p&gt;Circle allows its customers to hold funds denominated in bitcoin or USD. Funds held as dollars are still be spent and received through the Bitcoin network.&lt;/p&gt;
+
+&lt;h2 class=&quot;security wallet-sections&quot; id=&quot;security&quot;&gt;Security&lt;/h2&gt;
+&lt;p&gt;As a web/hot wallet, Circle should not be used to store large amounts of bitcoin. With full control over all accounts and private keys, your funds may be frozen at any time.&lt;/p&gt;
+
+&lt;p&gt;Although all bitcoin held is insured, a loss is only covered if something goes wrong on Circle’s end. Your bitcoin is gone if your account is hacked.&lt;/p&gt;
+
+&lt;p&gt;Two-factor authentication is required.&lt;/p&gt;
+
+&lt;h2 class=&quot;privacy wallet-sections&quot; id=&quot;privacy&quot;&gt;Privacy&lt;/h2&gt;
+&lt;p&gt;Your name, phone number, email, and a number of other personal details are required. You must trust Circle’s servers to verify transaction data. Circle knows your addresses and balances at all times and can connect this with your identity. Because of buy/sell features, it must also follow all KYC laws.&lt;/p&gt;
+
+&lt;p&gt;Each payment request uses a new address, which helps prevent other users from connecting Bitcoin addresses together.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Jul 2015 12:56:46 -0400</pubDate>
+        <link>http://nothirdparty.com//wallets/circle/</link>
+        <guid isPermaLink="true">http://nothirdparty.com//wallets/circle/</guid>
+        
+        
+        <category>wallets</category>
+        
+        <category>web</category>
+        
+      </item>
+    
+      <item>
+        <title>Wallets: Blockchain.info</title>
+        <description>&lt;p&gt;Blockchain.info is the world’s most popular blockchain explorer, and also offers a simple Bitcoin web wallet.&lt;/p&gt;
+
+&lt;p&gt;Blockchain.info wallets can be accessed from in any web browser, apps for iPhone and Android, and browser extensions for Firefox and Chrome.&lt;/p&gt;
+
+&lt;h2 class=&quot;security wallet-sections&quot; id=&quot;security&quot;&gt;Security&lt;/h2&gt;
+&lt;p&gt;Blockchain.info encrypts your wallet in the browser and then stores it as a JSON on its server.  Blockchain.info has no access to funds and only your password can decrypt the file with your private keys.&lt;/p&gt;
+
+&lt;p&gt;A wallet backup can be stored anywhere, but its security is only as strong as the password used for encryption.&lt;/p&gt;
+
+&lt;p&gt;Blockchain.info is not an HD wallet, so each new address is generated with RNG. Over &lt;a href=&quot;http://www.coinsetter.com/bitcoin-news/2014/12/14/300-bitcoins-swept-blockchain-info-wallets-1992&quot;&gt;300 BTC were lost&lt;/a&gt; and luckily returned to BI users due to a weak RNG generator.&lt;/p&gt;
+
+&lt;p&gt;Users have had &lt;a href=&quot;http://www.bitcoinaffiliatenetwork.com/blog/bryan/how-hackers-used-tor-to-rob-blockchain-info-and-localbitcoins-users/&quot;&gt;funds stolen&lt;/a&gt; when using their wallet with Tor. Users who want to access through Tor should only do so through Blockchain.info’s hidden service: &lt;a href=&quot;https://blockchainbdgpzk.onion/&quot;&gt;https://blockchainbdgpzk.onion/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Blockchain.info wallets should be accessed through the browser extensions or mobile apps for improved security.&lt;/p&gt;
+
+&lt;h2 class=&quot;privacy wallet-sections&quot; id=&quot;privacy&quot;&gt;Privacy&lt;/h2&gt;
+&lt;p&gt;A password is the only information required to create a Blockchain.info wallet. A unique identifier is then created which allows you to login from other locations.&lt;/p&gt;
+
+&lt;p&gt;Blockchain.info allows you to use an email address or phone number for two-factor authentication. If notifications are active, BI must track your wallet’s public keys in order to issue alerts. Blockchain.info can connect email addresses or phone numbers to addresses if alerts are enabled.&lt;/p&gt;
+
+&lt;p&gt;Blockchain.info claims to only store a hash of the IP address a wallet was created with. Accessing its website through the Tor hidden service prevents leaking your IP address.&lt;/p&gt;
+
+&lt;p&gt;You must manually generate a new address for each transaction, which helps prevent spying or tracking of your payments.&lt;/p&gt;
+
+&lt;p&gt;Blockchain.info received two scores from the Open Bitcoin Privacy Project’s &lt;a href=&quot;http://openbitcoinprivacyproject.org/2015/05/spring-2015-wallet-privacy-rating-report/&quot;&gt;Spring 2015 report&lt;/a&gt;. Its web wallet received a score of 22 out of 100, and its Android app 14 out of 100.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Jul 2015 12:56:46 -0400</pubDate>
+        <link>http://nothirdparty.com//wallets/blockchain-info/</link>
+        <guid isPermaLink="true">http://nothirdparty.com//wallets/blockchain-info/</guid>
+        
+        
+        <category>wallets</category>
+        
+        <category>web</category>
+        
+        <category>mobile</category>
         
       </item>
     

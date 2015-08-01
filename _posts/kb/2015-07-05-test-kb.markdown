@@ -1,10 +1,10 @@
 ---
 layout: kb
-title:  "Test KB"
+title:  "How to Use TREZOR with Electrum"
 date:   2015-07-05 16:54:46
 author: Jordan Tuwiner
-permalink: /kb/test/
-desc: Mycelium is an advanced yet simple mobile wallet available for both Android and iOS devices and gives you full control of your private keys.
+permalink: /kb/trezor-electrum/
+desc: How to spend from and use an initialized TREZOR with Electrum 2.0.
 categories: 
 - kb
 

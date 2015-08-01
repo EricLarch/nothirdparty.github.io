@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<meta name="description" content="Coinkite is a Canadian Bitcoin company, known for its multisignature wallet. Coinkite also supports multisig with the Ledger hardware wallet." />
+	
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/assets/ico/favicon.ico">
+    <link rel="canonical" href="http://nothirdparty.com//wallets/coinkite/">
+
+    <title>Coinkite Bitcoin Wallet Features, Privacy and Security</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <!--<link rel="stylesheet" href="/css/main.css">-->
+
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="/assets/js/modernizr.js"></script>
+</head>
+
+    <body>
+        <!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"></a>
+    </div>
+    <div class="navbar-collapse collapse navbar-right">
+      <ul class="nav navbar-nav">
+        <li ><a href="/">Home</a></li>
+        <li ><a href="/wallets/">Wallets</a></li>
+        <li ><a href="/blog/">Blog</a></li>
+        <li ><a href="/about/">About</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+
+            
+<div class="wallet-header-back">
+<div class="container mtb wallet-header coinkite">
+	<div class="row">
+	  <div class="col-xs-12 col-lg-10 col-lg-offset-1">
+	  <img class="wallet-logo" src="/assets/img/blog/coinkite.png">
+	  <h1 class="ctitle"><a href="/wallets/coinkite/">Coinkite</a></h1>
+	 <div class="wallet-info"> 
+	 	<div class="wallet-info-link"><i class="fa fa-fw fa-link fa-lg"></i> <a href="https://coinkite.com/">coinkite.com</a></div>
+	 	
+	 	
+	 	<div class="wallet-info-link"><i class="fa fa-fw fa-globe fa-lg"></i> Web Wallet</div>
+	 	
+	 	
+	 	
+	 	
+	 	<div class="wallet-info-link"><i class="fa fa-fw fa-github fa-lg"></i> <a href="https://github.com/coinkite">Open Source</a></div>
+	 	
+	 </div>
+	 </div>
+	</div>
+</div>
+</div>
+<div class="container wallet-content coinkite">
+    <div class="row">
+        <! -- SINGLE POST -->
+        <div class="col-lg-10 col-lg-offset-1">
+            <! -- Blog Post  -->
+            <div class="list-group vitals">
+			  
+			  <span class="list-group-item bg-success"><i class="fa fa-key fa-fw"></i>&nbsp; <span>User controls private keys</span></span>
+			  
+			  
+			  
+			  
+	 	<a class="list-group-item" href="https://coinkite.com/"><i class="fa fa-sign-in fa-fw"></i>&nbsp; <span>Create Wallet</span></a>
+	 	      
+	 	      
+	 	      
+			  
+			  
+			  <a class="list-group-item" href="https://github.com/NoThirdParty/nothirdparty.github.io/blob/master/_posts/wallets/2015-07-07-coinkite.markdown"><i class="fa fa-pencil fa-fw"></i>&nbsp; <span>Contribute to this page</span></a>
+			</div>
+            <p>Coinkite is a bitcoin platform with multisig wallets, merchant tools, and a developer API. It’s been in business for over 2 years and is based in Canada.</p>
+
+<h2 class="security wallet-sections" id="security">Security</h2>
+<p>Coinkite offers two kinds of wallets: a “Simple Wallet” where CK signs the transactions and holds the private keys, and “Multisig Vaults” where you control the keys.</p>
+
+<p>The “Simple Wallet” is a BIP32 HD wallet where Coinkite’s HSM (Hardware Security Modules) securely generates and holds private keys. An encrypted back up of the keys is also sent to you by email. In this option you trade trust on Coinkite for convenience. The “Simple Wallet” should not be used to store large amounts of bitcoin. With full control over all “Simple Wallet” accounts and private keys, Coinkite can offer server side automation (i.e. Bitcoin Forwarding) but if shut down your account could be blocked. Coinkite has a dead-man-switch for service continuation in that case, releasing a global password to open the backups.</p>
+
+<p>Coinkite’s “Multsig” wallets allow up 15 co-signers, which can be: signed by CK, an encrypted wallet stored on CK, a new key generated by CK, another CK user, the Ledger hardware wallet, or any offline generated BIP32 key. Coinkite’s multisig wallets give you 100% control of private keys.</p>
+
+<p>Users must trust Coinkite to provide the correct transaction data but also includes links with third party verification.</p>
+
+<h2 class="privacy wallet-sections" id="privacy">Privacy</h2>
+<p>Coinkite doesn’t require email or any personal information on signup and can be accessed with a TOR onion address: http://gcvqzacplu4veul4.onion.</p>
+
+<p>You can generate new addresses on deman, but the “quick deposit” feature reuses the same address. Address reuse makes it easy for others to observe your history on the blockchain and connect your addresses and funds.</p>
+
+<p>CK has no US servers. All backups are in Switzerland and encrypted row by row.</p>
+ 
+        </div><! --/col-lg-10 -->
+    </div><! --/row -->
+</div><! --/container -->
+
+        <div id="footerwrap">
+    <div class="container">
+    <div class="row">
+    	<div class="col-xs-12 col-md-4 col-sm-12 centered">
+        	<a href="/" class="footer-logo"></a>
+			<h4 class="footer-logo-header-4">No Third Party</h4>
+			<p class="footer-logo-header-5">Take control of your money</p>
+        </div>
+        <div class="col-xs-6 col-md-2 col-sm-3">    
+        	<div class="footer-menu-title">NTP</div>
+	        	<ul class="footer-menu-list">
+	        		<li><a href="/about/">About</a></li>
+	        		<li><a href="/wallets/">Wallets</a></li>
+	        		<li><a href="/kb/">Knowledge Base</a></li>
+	        		<li><a href="/blog/">Blog</a></li>
+	        	</ul>    	
+        </div>
+		<div class="col-xs-6 col-md-2 col-sm-3">    
+        	<div class="footer-menu-title">Connect</div>
+	        	<ul class="footer-menu-list">
+	        		<li><a href="/contact/">Contact</a></li>
+	        		<li><a href="http://twitter.com/nothirdparty/">Twitter</a></li>
+	        		<li><a href="https://www.facebook.com/NoThirdParty">Facebook</a></li>
+	        		<li><a href="https://github.com/NoThirdParty">GitHub</a></li>
+	        	</ul>   
+        </div>
+        <div class="col-xs-6 col-md-2 col-sm-3">    
+        	<div class="footer-menu-title">Help</div>
+	        	<ul class="footer-menu-list">
+	        		<li><a href="http://www.coindesk.com/information/what-is-bitcoin/">What is Bitcoin?</a></li>
+	        		<li><a href="/blog/why-no-third-party/">Why No Third Party?</a></li>
+	        		<li><a href="http://buybitcoinworldwide.com/">Buy Bitcoin</a></li>
+	        		<li><a href="/">Choose a Wallet</a></li>
+	        	</ul>   
+        </div>
+        <div class="col-xs-6 col-md-2 col-sm-3">    
+        	<div class="footer-menu-title">Site</div>
+	        	<ul class="footer-menu-list">
+	        		<li><a href="/editorial-policy/">Editorial Policy</a></li>
+	        		<li><a href="/privacy-policy/">Privacy Policy</a></li>
+	        		<li><a href="/contribute/">Contribute</a></li>
+	        		<li><a href="/translate/">Translate</a></li>
+	        	</ul>    	
+        </div>
+    </div>
+    <div class="row">
+    	
+    </div>
+    </div><! --/container -->
+</div><! --/footerwrap -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+<script src="/assets/js/retina-1.1.0.js"></script>
+<script src="/assets/js/jquery.hoverdir.js"></script>
+<script src="/assets/js/jquery.hoverex.min.js"></script>
+<script src="/assets/js/jquery.prettyPhoto.js"></script>
+<script src="/assets/js/jquery.isotope.min.js"></script>
+<script src="/assets/js/custom.js"></script>
+
+<script>
+// Portfolio
+(function($) {
+	"use strict";
+	var $container = $('.portfolio'),
+		$items = $container.find('.portfolio-item'),
+		portfolioLayout = 'fitRows';
+		
+		if( $container.hasClass('portfolio-centered') ) {
+			portfolioLayout = 'masonry';
+		}
+				
+		$container.isotope({
+			filter: '*',
+			animationEngine: 'best-available',
+			layoutMode: portfolioLayout,
+			animationOptions: {
+			duration: 750,
+			easing: 'linear',
+			queue: false
+		},
+		masonry: {
+		}
+		}, refreshWaypoints());
+		
+		function refreshWaypoints() {
+			setTimeout(function() {
+			}, 1000);   
+		}
+				
+		$('nav.portfolio-filter ul a').on('click', function() {
+				var selector = $(this).attr('data-filter');
+				$container.isotope({ filter: selector }, refreshWaypoints());
+				$('nav.portfolio-filter ul a').removeClass('active');
+				$(this).addClass('active');
+				return false;
+		});
+		
+		function getColumnNumber() { 
+			var winWidth = $(window).width(), 
+			columnNumber = 1;
+		
+			if (winWidth > 1200) {
+				columnNumber = 5;
+			} else if (winWidth > 950) {
+				columnNumber = 4;
+			} else if (winWidth > 600) {
+				columnNumber = 3;
+			} else if (winWidth > 400) {
+				columnNumber = 2;
+			} else if (winWidth > 250) {
+				columnNumber = 1;
+			}
+				return columnNumber;
+			}       
+			
+			function setColumns() {
+				var winWidth = $(window).width(), 
+				columnNumber = getColumnNumber(), 
+				itemWidth = Math.floor(winWidth / columnNumber);
+				
+				$container.find('.portfolio-item').each(function() { 
+					$(this).css( { 
+					width : itemWidth + 'px' 
+				});
+			});
+		}
+		
+		function setPortfolio() { 
+			setColumns();
+			$container.isotope('reLayout');
+		}
+			
+		$container.imagesLoaded(function () { 
+			setPortfolio();
+		});
+		
+		$(window).on('resize', function () { 
+		setPortfolio();          
+	});
+})(jQuery);
+</script>
+    </body>
+</html>

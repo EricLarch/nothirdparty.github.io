@@ -235,6 +235,14 @@ hr.normal {
 	float: left;
 }
 
+.sub-overview a {
+	color: #000;
+}
+
+.sub-overview a:hover {
+	color: #428bca;
+}
+
 .sub-overview p {
 	float: left;
 	font-size: 16px;
@@ -263,6 +271,16 @@ hr.normal {
 	border-radius: 50%;
 }
 
+.note {
+    background: #fafafa none repeat scroll 0 0;
+    border-bottom: 4px double #00aeef;
+    border-top: 4px double #00aeef;
+    padding: 20px 30px;
+}
+
+.kb-helper {
+	margin: 0 auto;
+}
 
 @media (max-width: 767px) { 
 	.choose-wallet h3 {
@@ -479,8 +497,8 @@ hr.normal {
 	color: rgba(30, 30, 30, 0.8);	
 }
 
-.wallet-index-wrap h3:hover {
-	color: #00b3fe;	
+.wallet-index-wrap:hover h3 {
+	color: #00b3fe !important;	
 }
 
 .wallet-index-wrap h3 {

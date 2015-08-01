@@ -2,7 +2,7 @@
 layout: wallet
 title:  "GreenBits"
 wallet: greenbits
-date:   2015-07-07 16:54:46
+date:   2015-07-07 16:56:46
 author: Jordan Tuwiner
 permalink: /wallets/greenbits/
 img: greenbits.png
