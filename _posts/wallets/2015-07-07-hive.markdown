@@ -33,5 +33,3 @@ A pin must be made on wallet creation, and is required upon opening the app or l
 ##Privacy
 {: .privacy .wallet-sections}
 As an HD wallet, Hive generates a new address for every transaction and does not re-use addresses. Using a new address for each transaction helps prevent spying on your payments and funds.
-
-[hampden]: https://github.com/jekyll/jekyll

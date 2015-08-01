@@ -42,6 +42,3 @@ A user-set PIN is required to open your wallet each time.
 GreenAddress plans to add CoinJoin to GreenBits in a future update. GreenBits/GreenAddress know your IP address, balance, and addresses.
 
 As an HD wallet, GreenBits generates a new address for every transaction and does not re-use addresses. Using a new address for each transaction helps prevent spying on your payments and funds.
-
-
-[hampden]: https://github.com/jekyll/jekyll

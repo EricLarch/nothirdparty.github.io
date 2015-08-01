@@ -32,6 +32,3 @@ Bitcoin Wallet is an HD wallet. It generates a new address for each transaction 
 Because the wallet connects directly to the Bitcoin network peers can see your phone’s IP address.
 
 Bitcoin wallet received a score of 46 out of 100 from the Open Bitcoin Privacy Project’s [Spring 2015 report](http://openbitcoinprivacyproject.org/2015/05/spring-2015-wallet-privacy-rating-report/).
-
-
-[hampden]: https://github.com/jekyll/jekyll

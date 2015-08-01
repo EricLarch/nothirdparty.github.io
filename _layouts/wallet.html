@@ -45,6 +45,9 @@ layout: default
 			  {% if wallet.create == true %}
 	 	<a class="list-group-item" href="{{ wallet.create_url }}"><i class="fa fa-sign-in fa-fw"></i>&nbsp; <span>Create Wallet</span></a>
 	 	      {% endif %}
+	 	      {% if wallet.buy == true %}
+	 	<a class="list-group-item" href="{{ wallet.buy_url }}"><i class="fa fa-shopping-cart fa-fw"></i>&nbsp; <span>Buy</span></a>
+	 	      {% endif %}
 	 	      {% if wallet.download_desktop == true %}
 			  <a class="list-group-item" href="{{ wallet.download_desktop_url }}"><i class="fa fa-download fa-fw"></i>&nbsp; <span>Download</span></a>
 			  {% endif %}

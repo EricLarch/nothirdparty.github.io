@@ -5,8 +5,8 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>http://nothirdparty.com//</link>
     <atom:link href="http://nothirdparty.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 01 Aug 2015 10:51:40 -0400</pubDate>
-    <lastBuildDate>Sat, 01 Aug 2015 10:51:40 -0400</lastBuildDate>
+    <pubDate>Sat, 01 Aug 2015 11:58:02 -0400</pubDate>
+    <lastBuildDate>Sat, 01 Aug 2015 11:58:02 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -34,7 +34,6 @@
 &lt;p&gt;Users in need of privacy should avoid linking their social networks to their account. GreenAddress plans to add CoinJoin in a future update. GA knows your IP address and balance.&lt;/p&gt;
 
 &lt;p&gt;As an HD wallet, GreenAddress generates a new address for every transaction and does not re-use addresses. Using a new address for each transaction helps prevent spying on your payments and funds.&lt;/p&gt;
-
 </description>
         <pubDate>Tue, 07 Jul 2015 12:58:46 -0400</pubDate>
         <link>http://nothirdparty.com//wallets/greenaddress/</link>
@@ -46,6 +45,45 @@
         <category>web</category>
         
         <category>desktop</category>
+        
+      </item>
+    
+      <item>
+        <title>Wallets: TREZOR</title>
+        <description>&lt;p&gt;TREZOR launched in &lt;a href=&quot;http://satoshilabs.com/news/2014-08-07-trezor-sales-launched-buytrezor-com/&quot;&gt;August 2014&lt;/a&gt; as the first Bitcoin hardware wallet, offering secure cold storage plus the ability to spend with the convenience of a hot wallet. TREZOR is a small, key-sized device which connects to your computer with a USB cable. It stores your Bitcoin private keys offline and signs transactions. It can be safely used on a malware infected computer.&lt;/p&gt;
+
+&lt;p&gt;TREZOR is compatible with a number of wallets, including &lt;a href=&quot;/wallets/electrum/&quot;&gt;Electrum&lt;/a&gt;, MultiBit HD, and &lt;a href=&quot;/wallets/greenaddress/&quot;&gt;GreenAddress&lt;/a&gt; on desktop, &lt;a href=&quot;/wallets/greenbits/&quot;&gt;GreenBits&lt;/a&gt; and &lt;a href=&quot;/wallets/mycelium/&quot;&gt;Mycelium&lt;/a&gt; on Android, and &lt;a href=&quot;https://mytrezor.com&quot;&gt;myTREZOR.com&lt;/a&gt; on the web. Use the &lt;a href=&quot;http://doc.satoshilabs.com/trezor-apps/extension.html&quot;&gt;TREZOR Chrome extension&lt;/a&gt; to manage your device.&lt;/p&gt;
+
+&lt;p&gt;TREZOR can also be used as a secure login device on a &lt;a href=&quot;http://doc.satoshilabs.com/trezor-apps/index.html&quot;&gt;number of websites&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 class=&quot;security wallet-sections&quot; id=&quot;security&quot;&gt;Security&lt;/h2&gt;
+&lt;p&gt;TREZOR provides top-notch security for bitcoin, protecting against both physical and virtual theft.&lt;/p&gt;
+
+&lt;p&gt;TREZOR is an HD wallet where you control the private keys, so an entire wallet can be backed up with the 24 words generated on setup. The original 24-word seed is generated using RNG from the device and the computer. The seed is generated offline and displayed on the TREZOR’s screen, which ensures that the seed is never on an internet-connected device.&lt;/p&gt;
+
+&lt;p&gt;A PIN code is required on setup, and required for spending. After each incorrect guess the wait between guesses is raised by a power of two. Making 30 guesses would take &lt;a href=&quot;http://doc.satoshilabs.com/trezor-faq/threats.html&quot;&gt;17 years&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can add a passphrase to the 24-word seed for extra security, which acts as a 25th word. You must remember the passphrase because the seed without the passphrase is not enough to recover the wallet. A passphrase offers more security, but if forgotten the wallet cannot be recovered.&lt;/p&gt;
+
+&lt;p&gt;You can recover the entire wallet with the 24-word seed and passphrase if used, in the event that your TREZOR is lost or damaged. Recovery can be done with another TREZOR or with other wallets, like &lt;a href=&quot;/kb/restore-trezor-seed-electrum/&quot;&gt;Electrum&lt;/a&gt; or &lt;a href=&quot;/kb/restore-trezor-seed-mycelium-android/&quot;&gt;Mycelium&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;TREZOR’s screen allows you to confirm that you’re sending to the intended recipient, but this does not prevent against phishing attacks.&lt;/p&gt;
+
+&lt;p&gt;A full overview of how TREZOR handles security threats can &lt;a href=&quot;http://doc.satoshilabs.com/trezor-faq/threats.html&quot;&gt;be found on the Satoshi Labs website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 class=&quot;privacy wallet-sections&quot; id=&quot;privacy&quot;&gt;Privacy&lt;/h2&gt;
+&lt;p&gt;TREZOR itself offers very good privacy. Satoshi Labs has no way of tracking your actions after you receive the device because it has no serial number. All of the software is open source. No usernames or passwords are needed when using TREZOR.&lt;/p&gt;
+
+&lt;p&gt;Privacy is determined by the wallet used with TREZOR: Electrum, MultiBit HD, and GreenAddress on desktop, GreenBits and Mycelium on Android, and myTREZOR.com on the web.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 Jul 2015 12:56:46 -0400</pubDate>
+        <link>http://nothirdparty.com//wallets/trezor/</link>
+        <guid isPermaLink="true">http://nothirdparty.com//wallets/trezor/</guid>
+        
+        
+        <category>wallets</category>
+        
+        <category>hardware</category>
         
       </item>
     
@@ -66,7 +104,6 @@
 
 &lt;h2 class=&quot;privacy wallet-sections&quot; id=&quot;privacy&quot;&gt;Privacy&lt;/h2&gt;
 &lt;p&gt;As an HD wallet, Hive generates a new address for every transaction and does not re-use addresses. Using a new address for each transaction helps prevent spying on your payments and funds.&lt;/p&gt;
-
 </description>
         <pubDate>Tue, 07 Jul 2015 12:56:46 -0400</pubDate>
         <link>http://nothirdparty.com//wallets/hive/</link>
@@ -98,7 +135,6 @@
 &lt;p&gt;Because the wallet connects directly to the Bitcoin network peers can see your phone’s IP address.&lt;/p&gt;
 
 &lt;p&gt;Bitcoin wallet received a score of 46 out of 100 from the Open Bitcoin Privacy Project’s &lt;a href=&quot;http://openbitcoinprivacyproject.org/2015/05/spring-2015-wallet-privacy-rating-report/&quot;&gt;Spring 2015 report&lt;/a&gt;.&lt;/p&gt;
-
 </description>
         <pubDate>Tue, 07 Jul 2015 12:55:46 -0400</pubDate>
         <link>http://nothirdparty.com//wallets/bitcoin-wallet/</link>
@@ -138,7 +174,6 @@
 &lt;p&gt;GreenAddress plans to add CoinJoin to GreenBits in a future update. GreenBits/GreenAddress know your IP address, balance, and addresses.&lt;/p&gt;
 
 &lt;p&gt;As an HD wallet, GreenBits generates a new address for every transaction and does not re-use addresses. Using a new address for each transaction helps prevent spying on your payments and funds.&lt;/p&gt;
-
 </description>
         <pubDate>Tue, 07 Jul 2015 12:54:46 -0400</pubDate>
         <link>http://nothirdparty.com//wallets/greenbits/</link>
@@ -246,7 +281,6 @@ peer-to-peer, with no trusted third party.
 &lt;p&gt;The Mycelium developers recognized that users value their privacy, and plan to implement CoinJoin in future updates.&lt;/p&gt;
 
 &lt;p&gt;Mycelium received a score of 50 out of 100 from the Open Bitcoin Privacy Project’s &lt;a href=&quot;http://www.openbitcoinprivacyproject.org/2015/05/spring-2015-wallet-privacy-rating-report/&quot;&gt;Spring 2015 report&lt;/a&gt;.&lt;/p&gt;
-
 </description>
         <pubDate>Fri, 25 Apr 2014 12:54:46 -0400</pubDate>
         <link>http://nothirdparty.com//wallets/mycelium/</link>
@@ -256,6 +290,31 @@ peer-to-peer, with no trusted third party.
         <category>wallets</category>
         
         <category>mobile</category>
+        
+      </item>
+    
+      <item>
+        <title>Wallets: Hive Mac</title>
+        <description>&lt;p&gt;Hive is a native, elegant Bitcoin wallet for Mac. It aims to be ‘human-friendly’ and supports over 30 languages. Wallets created with the mobile/web version cannot be imported to Hive Mac.&lt;/p&gt;
+
+&lt;h2 class=&quot;security wallet-sections&quot; id=&quot;security&quot;&gt;Security&lt;/h2&gt;
+&lt;p&gt;Private keys are encrypted with a password and stored on your computer.  Hive is a hot wallet and should be used for small amounts of Bitcoin.&lt;/p&gt;
+
+&lt;p&gt;Your wallet and its keys can be backed up through Google Drive, Time Machine, or Dropbox.&lt;/p&gt;
+
+&lt;h2 class=&quot;privacy wallet-sections&quot; id=&quot;privacy&quot;&gt;Privacy&lt;/h2&gt;
+&lt;p&gt;Hive Mac &lt;a href=&quot;https://github.com/hivewallet/hive-mac/wiki/FAQ#can-i-create-more-than-one-address-or-multiple-wallets&quot;&gt;creates one address&lt;/a&gt; which must be used to receive all funds. This is detrimental to privacy and allows others to see your entire transaction history.&lt;/p&gt;
+
+&lt;p&gt;Hive Mac uses bitcoinj and SPV to connect to the Bitcoin network. Peers can connect your IP address to the single address used in Hive.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 25 Apr 2014 12:54:46 -0400</pubDate>
+        <link>http://nothirdparty.com//wallets/hive-mac/</link>
+        <guid isPermaLink="true">http://nothirdparty.com//wallets/hive-mac/</guid>
+        
+        
+        <category>wallets</category>
+        
+        <category>desktop</category>
         
       </item>
     
@@ -284,7 +343,6 @@ peer-to-peer, with no trusted third party.
 &lt;p&gt;As an HD wallet, Electrum generates a new address for every transaction and does not re-use addresses. Using a new address for each transaction helps prevent spying on your payments and funds.&lt;/p&gt;
 
 &lt;p&gt;Electrum received a score of 46 out of 100 from the Open Bitcoin Privacy Project’s &lt;a href=&quot;http://www.openbitcoinprivacyproject.org/2015/05/spring-2015-wallet-privacy-rating-report/&quot;&gt;Spring 2015 report&lt;/a&gt;.&lt;/p&gt;
-
 </description>
         <pubDate>Fri, 25 Apr 2014 12:54:46 -0400</pubDate>
         <link>http://nothirdparty.com//wallets/electrum/</link>

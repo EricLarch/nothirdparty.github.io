@@ -77,3 +77,24 @@ electrum:
   download_desktop_url: https://electrum.org/#download
   contribute_url: https://github.com/NoThirdParty/nothirdparty.github.io/blob/master/_posts/wallets/2015-07-07-electrum.markdown
   
+hivemac:
+  website: mac.hivewallet.com
+  website_url: https://mac.hivewallet.com/
+  desktop_wallet: yes
+  open_source: yes
+  open_source_url: https://github.com/hivewallet/hive-mac
+  control_priv_keys: yes
+  download_desktop: yes
+  download_desktop_url: https://mac.hivewallet.com/
+  contribute_url: https://github.com/NoThirdParty/nothirdparty.github.io/blob/master/_posts/wallets/2015-07-07-hive-mac.markdown
+  
+trezor:
+  website: bitcointrezor.com
+  website_url: http://bitcointrezor.com/
+  hardware_wallet: yes
+  open_source: yes
+  open_source_url: https://github.com/trezor/
+  control_priv_keys: yes
+  buy: yes
+  buy_url: http://buytrezor.com/
+  contribute_url: https://github.com/NoThirdParty/nothirdparty.github.io/blob/master/_posts/wallets/2015-07-07-trezor.markdown

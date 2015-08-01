@@ -41,5 +41,3 @@ GreenAddress has a PIN feature that is required to access funds. After three inc
 Users in need of privacy should avoid linking their social networks to their account. GreenAddress plans to add CoinJoin in a future update. GA knows your IP address and balance.
 
 As an HD wallet, GreenAddress generates a new address for every transaction and does not re-use addresses. Using a new address for each transaction helps prevent spying on your payments and funds.
-
-[hampden]: https://github.com/jekyll/jekyll
