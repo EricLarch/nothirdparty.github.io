@@ -9,6 +9,9 @@ categories:
 - meta
 permalink: /blog/why-no-third-party/
 ---
+Bitcoin the currency will change the global financial landscape. No Third Party provides you with the tools necessary to navigate the new P2P economy.
+<!--more-->
+
 Satoshi's Nakamoto, the creator of Bitcoin, had clear intentions. Here is the first sentence of his email introducing his new creation:
 <blockquote>I've been working on a new electronic cash system that's fully
 peer-to-peer, with no trusted third party.
