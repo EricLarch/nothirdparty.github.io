@@ -4,9 +4,9 @@ title: "Why No Third Party?"
 date: 2015-06-20 16:54:46
 author: Jordan Tuwiner
 desc: Bitcoin the currency will change the global financial landscape. No Third Party provides you with the tools necessary to navigate the new P2P economy.
-categories:
 redirect_from:
   - "/blog/mycelium-returns-app-store/"
+categories:
 - blog
 - meta
 permalink: /blog/why-no-third-party/
