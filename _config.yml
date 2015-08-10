@@ -9,6 +9,9 @@ markdown: kramdown
 permalink: /:categories/:title
 excerpt_separator: <!--more--> 
 
+gems:
+  - jekyll-redirect-from
+
 # colors
 colors:  #in hex code if not noted else
   primary: "#00b3fe" #"#F70031" 

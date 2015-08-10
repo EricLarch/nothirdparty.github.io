@@ -11,6 +11,8 @@ thumb: coinbase.png
 categories: 
 - wallets
 - web
+redirect_from:
+  - /coinbase/
 keywords: "Coinbase Bitcoin Wallet Features, Privacy and Security"
 ---
 Coinbase was founded in 2013. It’s a US-based Bitcoin company that has received over $100 million in VC funding.
