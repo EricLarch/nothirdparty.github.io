@@ -8,6 +8,8 @@ wallet: blockchaininfo
 img: blockchain.png
 desc: Blockchain.info is the world's most popular blockchain explorer, but also offers a simple Bitcoin wallet for Android, iOS, and the web.
 thumb: blockchain.png
+redirect_from:
+  - "/blockchain-info/"
 categories: 
 - wallets
 - web

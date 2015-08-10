@@ -8,6 +8,8 @@ wallet: coinkite
 img: coinkite.png
 desc: Coinkite is a Canadian Bitcoin company, known for its multisignature wallet. Coinkite also supports multisig with the Ledger hardware wallet.
 thumb: coinkite.png
+redirect_from:
+  - "/coinkite/"
 categories: 
 - wallets
 - web

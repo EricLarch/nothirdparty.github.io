@@ -8,6 +8,8 @@ permalink: /wallets/greenbits/
 img: greenbits.png
 desc: GreenBits Bitcoin wallet is the native Android version of GreenAddress. Its a multi-signature wallet that supports hardware wallets like TREZOR and Ledger.
 thumb: greenbits.png
+redirect_from:
+  - "/greenbits/"
 categories: 
 - wallets
 - mobile

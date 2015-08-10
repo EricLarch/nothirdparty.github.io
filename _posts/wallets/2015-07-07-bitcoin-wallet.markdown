@@ -8,6 +8,8 @@ permalink: /wallets/bitcoin-wallet/
 img: bwallet.png
 desc: Bitcoin Wallet was the first mobile Bitcoin wallet. BW offers simple send/receive features, a direct connection to the Bitcoin network, and more.
 thumb: bwallet.png
+redirect_from:
+  - "/bitcoin-wallet/"
 categories: 
 - wallets
 - mobile

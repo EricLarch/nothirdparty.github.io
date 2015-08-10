@@ -8,6 +8,8 @@ permalink: /wallets/electrum/
 img: electrum.png
 desc: Electrum is a desktop Bitcoin wallet built for speed and security. Its simple interface &amp; advanced features make it a good option for new & advanced users.
 thumb: electrum.png
+redirect_from:
+  - "/electrum/"
 categories: 
 - wallets
 - desktop

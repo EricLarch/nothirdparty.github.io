@@ -8,6 +8,8 @@ permalink: /wallets/greenaddress/
 img: greenaddress.png
 desc: Mycelium is an advanced yet simple mobile wallet available for both Android and iOS devices and gives you full control of your private keys.
 thumb: greenaddress.png
+redirect_from:
+  - "/greenaddress/"
 categories: 
 - wallets
 - web

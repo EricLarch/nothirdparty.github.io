@@ -8,6 +8,9 @@ wallet: hive
 img: hive.png
 desc: Hive is an elegant Bitcoin wallet, available on the web, iPhone, and Android. Its clean interface and ease of use make it a good choice for beginners.
 thumb: hive.png
+redirect_from:
+  - "/hive/"
+  - "/hive/trackback/"
 categories: 
 - wallets
 - mobile

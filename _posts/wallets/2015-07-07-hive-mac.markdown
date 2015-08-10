@@ -8,6 +8,8 @@ permalink: /wallets/hive-mac/
 img: hivemac.png
 desc: Hive Mac is a native and simple Bitcoin wallet. It aims to be "human-friendly" and supports over 30 languages, but has very limited features.
 thumb: hivemac.png
+redirect_from:
+  - "/hive-mac/"
 categories: 
 - wallets
 - desktop
