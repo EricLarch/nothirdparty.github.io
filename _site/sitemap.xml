@@ -247,7 +247,7 @@
       <url>
         <loc>https://www.nothirdparty.com/about/</loc>
         
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+          <lastmod>2015-08-14T16:46:43-04:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -264,7 +264,7 @@
       <url>
         <loc>https://www.nothirdparty.com/blog/</loc>
         
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+          <lastmod>2015-08-14T16:46:43-04:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -277,54 +277,9 @@
     
   
     
-      
-      <url>
-        <loc>https://www.nothirdparty.com/contact/</loc>
-        
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
-        
-        
-          <changefreq>monthly</changefreq>
-        
-        
-          <priority>0.3</priority>
-        
-      </url>
-      
-    
   
     
-      
-      <url>
-        <loc>https://www.nothirdparty.com/editorial-policy/</loc>
-        
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
-        
-        
-          <changefreq>monthly</changefreq>
-        
-        
-          <priority>0.3</priority>
-        
-      </url>
-      
-    
   
-    
-      
-      <url>
-        <loc>https://www.nothirdparty.com/feed.xml</loc>
-        
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
-        
-        
-          <changefreq>monthly</changefreq>
-        
-        
-          <priority>0.3</priority>
-        
-      </url>
-      
     
   
     
@@ -332,7 +287,7 @@
       <url>
         <loc>https://www.nothirdparty.com/</loc>
         
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+          <lastmod>2015-08-14T16:46:43-04:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -349,7 +304,7 @@
       <url>
         <loc>https://www.nothirdparty.com/kb/</loc>
         
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+          <lastmod>2015-08-14T16:46:43-04:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -361,21 +316,6 @@
       
     
   
-    
-      
-      <url>
-        <loc>https://www.nothirdparty.com/privacy-policy/</loc>
-        
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
-        
-        
-          <changefreq>monthly</changefreq>
-        
-        
-          <priority>0.3</priority>
-        
-      </url>
-      
     
   
     
@@ -385,7 +325,7 @@
       <url>
         <loc>https://www.nothirdparty.com/assets/css/style.css</loc>
         
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+          <lastmod>2015-08-14T16:46:43-04:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -402,7 +342,7 @@
       <url>
         <loc>https://www.nothirdparty.com/wallets/</loc>
         
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+          <lastmod>2015-08-14T16:46:43-04:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -419,7 +359,7 @@
       <url>
         <loc>https://www.nothirdparty.com/blog/mycelium-returns-app-store/</loc>
         
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+          <lastmod>2015-08-14T16:46:43-04:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -436,7 +376,7 @@
       <url>
         <loc>https://www.nothirdparty.com/hive/</loc>
         
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+          <lastmod>2015-08-14T16:46:43-04:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -453,7 +393,7 @@
       <url>
         <loc>https://www.nothirdparty.com/hive/trackback/</loc>
         
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+          <lastmod>2015-08-14T16:46:43-04:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -470,7 +410,7 @@
       <url>
         <loc>https://www.nothirdparty.com/bitcoin-wallet/</loc>
         
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+          <lastmod>2015-08-14T16:46:43-04:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -487,7 +427,7 @@
       <url>
         <loc>https://www.nothirdparty.com/blockchain-info/</loc>
         
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+          <lastmod>2015-08-14T16:46:43-04:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -504,7 +444,7 @@
       <url>
         <loc>https://www.nothirdparty.com/circle/</loc>
         
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+          <lastmod>2015-08-14T16:46:43-04:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -521,7 +461,7 @@
       <url>
         <loc>https://www.nothirdparty.com/coinbase/</loc>
         
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+          <lastmod>2015-08-14T16:46:43-04:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -538,7 +478,7 @@
       <url>
         <loc>https://www.nothirdparty.com/coinkite/</loc>
         
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+          <lastmod>2015-08-14T16:46:43-04:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -555,7 +495,7 @@
       <url>
         <loc>https://www.nothirdparty.com/electrum/</loc>
         
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+          <lastmod>2015-08-14T16:46:43-04:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -572,7 +512,7 @@
       <url>
         <loc>https://www.nothirdparty.com/greenaddress/</loc>
         
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+          <lastmod>2015-08-14T16:46:43-04:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -589,7 +529,7 @@
       <url>
         <loc>https://www.nothirdparty.com/greenbits/</loc>
         
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+          <lastmod>2015-08-14T16:46:43-04:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -606,7 +546,7 @@
       <url>
         <loc>https://www.nothirdparty.com/hive-mac/</loc>
         
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+          <lastmod>2015-08-14T16:46:43-04:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -623,7 +563,7 @@
       <url>
         <loc>https://www.nothirdparty.com/trezor/</loc>
         
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+          <lastmod>2015-08-14T16:46:43-04:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -640,7 +580,7 @@
       <url>
         <loc>https://www.nothirdparty.com/mycelium/</loc>
         
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+          <lastmod>2015-08-14T16:46:43-04:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -657,7 +597,7 @@
       <url>
         <loc>https://www.nothirdparty.com/contribute/</loc>
         
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+          <lastmod>2015-08-14T16:46:43-04:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -674,7 +614,7 @@
       <url>
         <loc>https://www.nothirdparty.com/feature/sweep-paper-wallet/</loc>
         
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+          <lastmod>2015-08-14T16:46:43-04:00</lastmod>
         
         
           <changefreq>monthly</changefreq>
@@ -691,7 +631,7 @@
       <url>
         <loc>https://www.nothirdparty.com/category/</loc>
         
-          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+          <lastmod>2015-08-14T16:46:43-04:00</lastmod>
         
         
           <changefreq>monthly</changefreq>

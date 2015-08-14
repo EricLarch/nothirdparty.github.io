@@ -6,7 +6,7 @@ url: "https://www.nothirdparty.com"
 markdown: kramdown
 
 # Build settings
-permalink: /:categories/:title
+permalink: /:tile/
 excerpt_separator: <!--more--> 
 
 gems:
