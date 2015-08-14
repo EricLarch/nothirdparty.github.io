@@ -1,95 +1,706 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://nothirdparty.com/wallets/mycelium/</loc>
-    <lastmod>2015-07-07T13:54:46-04:00</lastmod>
-  </url>
-  <url>
-    <loc>https://nothirdparty.com/wallets/trezor/</loc>
-    <lastmod>2015-07-07T12:56:46-04:00</lastmod>
-  </url>
-  <url>
-    <loc>https://nothirdparty.com/wallets/hive-mac/</loc>
-    <lastmod>2015-07-07T12:56:46-04:00</lastmod>
-  </url>
-  <url>
-    <loc>https://nothirdparty.com/wallets/greenbits/</loc>
-    <lastmod>2015-07-07T12:56:46-04:00</lastmod>
-  </url>
-  <url>
-    <loc>https://nothirdparty.com/wallets/greenaddress/</loc>
-    <lastmod>2015-07-07T12:56:46-04:00</lastmod>
-  </url>
-  <url>
-    <loc>https://nothirdparty.com/wallets/electrum/</loc>
-    <lastmod>2015-07-07T12:56:46-04:00</lastmod>
-  </url>
-  <url>
-    <loc>https://nothirdparty.com/wallets/coinkite/</loc>
-    <lastmod>2015-07-07T12:56:46-04:00</lastmod>
-  </url>
-  <url>
-    <loc>https://nothirdparty.com/wallets/coinbase/</loc>
-    <lastmod>2015-07-07T12:56:46-04:00</lastmod>
-  </url>
-  <url>
-    <loc>https://nothirdparty.com/wallets/circle/</loc>
-    <lastmod>2015-07-07T12:56:46-04:00</lastmod>
-  </url>
-  <url>
-    <loc>https://nothirdparty.com/wallets/blockchain-info/</loc>
-    <lastmod>2015-07-07T12:56:46-04:00</lastmod>
-  </url>
-  <url>
-    <loc>https://nothirdparty.com/wallets/bitcoin-wallet/</loc>
-    <lastmod>2015-07-07T12:56:46-04:00</lastmod>
-  </url>
-  <url>
-    <loc>https://nothirdparty.com/wallets/hive/</loc>
-    <lastmod>2015-07-07T12:53:46-04:00</lastmod>
-  </url>
-  <url>
-    <loc>https://nothirdparty.com/kb/trezor-electrum/</loc>
-    <lastmod>2015-07-05T12:54:46-04:00</lastmod>
-  </url>
-  <url>
-    <loc>https://nothirdparty.com/kb/restore-trezor-seed-mycelium-android/</loc>
-    <lastmod>2015-07-05T12:54:46-04:00</lastmod>
-  </url>
-  <url>
-    <loc>https://nothirdparty.com/kb/restore-trezor-seed-electrum/</loc>
-    <lastmod>2015-07-05T12:54:46-04:00</lastmod>
-  </url>
-  <url>
-    <loc>https://nothirdparty.com/blog/why-no-third-party/</loc>
-    <lastmod>2015-06-20T12:54:46-04:00</lastmod>
-  </url>
-  <url>
-    <loc>https://nothirdparty.com/about/</loc>
-  </url>
-  <url>
-    <loc>https://nothirdparty.com/blog/</loc>
-  </url>
-  <url>
-    <loc>https://nothirdparty.com/contact/</loc>
-  </url>
-  <url>
-    <loc>https://nothirdparty.com/editorial-policy/</loc>
-  </url>
-  <url>
-    <loc>https://nothirdparty.com/</loc>
-  </url>
-  <url>
-    <loc>https://nothirdparty.com/kb/</loc>
-  </url>
-  <url>
-    <loc>https://nothirdparty.com/privacy-policy/</loc>
-  </url>
-  <url>
-    <loc>https://nothirdparty.com/wallets/</loc>
-  </url>
-  <url>
-    <loc>https://nothirdparty.com/google6ea21d6cb7c0f054.html</loc>
-    <lastmod>2015-08-02T13:57:53-04:00</lastmod>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    
+    <url>
+      <loc>https://www.nothirdparty.com/wallets/mycelium/</loc>
+      
+        <lastmod>2015-07-07T13:54:46-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://www.nothirdparty.com/wallets/trezor/</loc>
+      
+        <lastmod>2015-07-07T12:56:46-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://www.nothirdparty.com/wallets/hive-mac/</loc>
+      
+        <lastmod>2015-07-07T12:56:46-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://www.nothirdparty.com/wallets/greenbits/</loc>
+      
+        <lastmod>2015-07-07T12:56:46-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://www.nothirdparty.com/wallets/greenaddress/</loc>
+      
+        <lastmod>2015-07-07T12:56:46-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://www.nothirdparty.com/wallets/electrum/</loc>
+      
+        <lastmod>2015-07-07T12:56:46-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://www.nothirdparty.com/wallets/coinkite/</loc>
+      
+        <lastmod>2015-07-07T12:56:46-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://www.nothirdparty.com/wallets/coinbase/</loc>
+      
+        <lastmod>2015-07-07T12:56:46-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://www.nothirdparty.com/wallets/circle/</loc>
+      
+        <lastmod>2015-07-07T12:56:46-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://www.nothirdparty.com/wallets/blockchain-info/</loc>
+      
+        <lastmod>2015-07-07T12:56:46-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://www.nothirdparty.com/wallets/bitcoin-wallet/</loc>
+      
+        <lastmod>2015-07-07T12:56:46-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://www.nothirdparty.com/wallets/hive/</loc>
+      
+        <lastmod>2015-07-07T12:53:46-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://www.nothirdparty.com/kb/trezor-electrum/</loc>
+      
+        <lastmod>2015-07-05T12:54:46-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://www.nothirdparty.com/kb/restore-trezor-seed-mycelium-android/</loc>
+      
+        <lastmod>2015-07-05T12:54:46-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://www.nothirdparty.com/kb/restore-trezor-seed-electrum/</loc>
+      
+        <lastmod>2015-07-05T12:54:46-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://www.nothirdparty.com/blog/why-no-third-party/</loc>
+      
+        <lastmod>2015-06-20T12:54:46-04:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/about/</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/blog/</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/contact/</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/editorial-policy/</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/feed.xml</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/kb/</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/privacy-policy/</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/assets/css/style.css</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/wallets/</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/blog/mycelium-returns-app-store/</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/hive/</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/hive/trackback/</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/bitcoin-wallet/</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/blockchain-info/</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/circle/</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/coinbase/</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/coinkite/</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/electrum/</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/greenaddress/</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/greenbits/</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/hive-mac/</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/trezor/</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/mycelium/</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/contribute/</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/feature/sweep-paper-wallet/</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
+    
+      
+      <url>
+        <loc>https://www.nothirdparty.com/category/</loc>
+        
+          <lastmod>2015-08-14T15:26:13-04:00</lastmod>
+        
+        
+          <changefreq>monthly</changefreq>
+        
+        
+          <priority>0.3</priority>
+        
+      </url>
+      
+    
+  
 </urlset>

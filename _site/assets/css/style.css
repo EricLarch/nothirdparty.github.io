@@ -76,6 +76,14 @@ a:focus {
   color:#01b2fe;
 }
 
+.entry-content a:hover, .home-showcase a:hover {
+	border-bottom: 1px solid;
+}
+
+.list-group-item:last-child:hover {
+	border-color: #ddd !important;
+}
+
 ::-moz-selection  {
 	color: #fff;
 	text-shadow:none;
