@@ -99,6 +99,17 @@ trezor:
   buy_url: http://buytrezor.com/
   contribute_url: https://github.com/NoThirdParty/nothirdparty.github.io/blob/master/_posts/wallets/2015-07-07-trezor.markdown
   
+ledger:
+  website: ledgerwallet.com
+  website_url: https://www.ledgerwallet.com/
+  hardware_wallet: yes
+  open_source: yes
+  open_source_url: https://github.com/ledgerHQ/
+  control_priv_keys: yes
+  buy: yes
+  buy_url: https://www.ledgerwallet.com/
+  contribute_url: https://github.com/NoThirdParty/nothirdparty.github.io/blob/master/_posts/wallets/2015-10-02-ledger.markdown
+  
 coinkite:
   website: coinkite.com
   website_url: https://coinkite.com/
